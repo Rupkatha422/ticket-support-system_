@@ -1,0 +1,625 @@
+instruction,category,intent,urgency
+"Hi, do you offer money-back guarantees?",REFUND,check_refund_policy,high
+Can I have two accounts and switch between them? Please assist.,ACCOUNT,switch_account,low
+"Hello, I want to speak with a human agent, not a bot",CONTACT,contact_human_agent,low
+"Hi team, I want to write a review of my expeirence",FEEDBACK,review,low
+could you help - where is my order? it hasn't arrived yet,ORDER,track_order,medium
+"This is unacceptable, I want to file a formal complaint! Looking forward to hearing back.",FEEDBACK,complaint,high
+"help, the payment failed but money was deducted!",PAYMENT,payment_issue,high
+Can you help me open a customer account? Cheers.,ACCOUNT,create_account,low
+tracking number says delivered but i never got it.,ORDER,track_order,medium
+I have a question: how do I contact your support team?,CONTACT,contact_customer_service,low
+"Hey there, how will my order take to arrive?",DELIVERY,delivery_period,medium
+How many days do I have to return an item? in advance.,REFUND,check_refund_policy,high
+Can you email me a PDF invoice for order #5500?,INVOICE,get_invoice,medium
+When can I expect my package? This is urgent.,DELIVERY,delivery_period,medium
+It's bene 10 days and no refund yet. Please assist.,REFUND,track_refund,high
+where do i post a product review?,FEEDBACK,review,low
+"Good morning, how can I leave a review for the product I bought?",FEEDBACK,review,low
+"Hey there, what shipping methods are available?",DELIVERY,delivery_options,medium
+I have a question: I need to use a different user profile,ACCOUNT,switch_account,low
+I need an invoice for accounting. Tihs is urgent.,INVOICE,get_invoice,medium
+Do you offer express delivery? I'm in a hurry.,DELIVERY,delivery_options,medium
+"Hey there, I forgot my password and can't log in",ACCOUNT,recover_password,high
+I need to talk to someone about my order. Many thanks.,CONTACT,contact_customer_service,low
+It's been 10 days and no refund yet. Many thanks.,REFUND,track_refund,high
+Please cancel order #1234 before it ships. Looking forward to hearing back.,CANCEL,cancel_order,high
+why can't i create my account? it sasy invalid input.,ACCOUNT,registration_problems,low
+"hello, i keep getting 'username already taken' but i'm new",ACCOUNT,registration_problems,low
+"hey there, i want to switch to a different account",ACCOUNT,switch_account,low
+Why can't I create my account? It says invalid input.,ACCOUNT,registration_problems,low
+"hello, do you offer money-back guarantees?",REFUND,check_refund_policy,high
+Good how do I add a new shipping address to my account?,SHIPPING_ADDRESS,set_up_shipping_address,medium
+I'd like to edit my personal details. Please assist.,ACCOUNT,edit_account,low
+"hi, i want to create a new account on your platform",ACCOUNT,create_account,low
+Where do I post a product review?,FEEDBACK,review,low
+Could you help - I'd like to download an invoice,INVOICE,get_invoice,medium
+"Hi, when will my refund be",REFUND,track_refund,high
+What's the typical delivery time to my country?,DELIVERY,delivery_period,medium
+I need to talk to someone about my order. I'd appreciate a quick reply.,CONTACT,contact_customer_service,low
+can you show me invoice number 8842?,INVOICE,check_invoice,medium
+"hi team, i need to use a different user profile",ACCOUNT,switch_account,low
+quick question - when will my refund be processed?,REFUND,track_refund,high
+Where do I post a product review? Cheers.,FEEDBACK,review,low
+I have a question: I need my account deleted right away,ACCOUNT,delete_account,high
+what's the typical delivery time to my country?,DELIVERY,delivery_period,medium
+"i'm having trouble paying, the page errors out",PAYMENT,payment_issue,high
+How do I order this product? Many thanks.,ORDER,place_order,medium
+The signup form keeps rejecting my email. Cheers.,ACCOUNT,registration_problems,low
+"Good morning, I'd like to place a new order",ORDER,place_order,medium
+I want to create a new account on your platform,ACCOUNT,create_account,low
+"Good morning, my payment was declined but my card is fine",PAYMENT,payment_issue,high
+Can you help me open a customer account? This is urgent.,ACCOUNT,create_account,low
+I'd like to receiev your weekly emails. This is urgent.,NEWSLETTER,newsletter_subscription,low
+pelase cancel order #1234 before it ships. thanks in advance.,CANCEL,cancel_order,high
+"Hello, sign me up for promotional emails",NEWSLETTER,newsletter_subscription,low
+Where can I view my past invoices? Thanks!,INVOICE,check_invoice,medium
+"hi, how do i edit the delivery address?",SHIPPING_ADDRESS,change_shipping_address,medium
+why can't i create my account? it says invalid input.,ACCOUNT,registration_problems,low
+it's been 10 days and no refund yet. this is urgent.,REFUND,track_refund,high
+estimated delivery for standard shipping?,DELIVERY,delivery_period,medium
+"good morning, i need a human agent right now",CONTACT,contact_human_agent,low
+Tracking number says delivered but I never got it. Cheers.,ORDER,track_order,medium
+How do I log into a secondary account?,ACCOUNT,switch_account,low
+Can I choose same-day shipping? This is urgent.,DELIVERY,delivery_options,medium
+Where can I view my past invoices? Cheers.,INVOICE,check_invoice,medium
+quick question - i'd like to download an invoice,INVOICE,get_invoice,medium
+"I want to speak with a human agent, not a bot",CONTACT,contact_human_agent,low
+"Exucse me, which payment methods do you accept?",PAYMENT,check_payment_methods,medium
+"good morning, my payment was declined but my card is fine",PAYMENT,payment_issue,high
+I have a question: I'm trying to find a copy my invoice,INVOICE,check_invoice,medium
+"Hi, I want to lodge a complaint aobut the rceent experience",FEEDBACK,complaint,high
+where can i view my past invoices? tahnks in advance.,INVOICE,check_invoice,medium
+I'd like to share my feedback on a purchase,FEEDBACK,review,low
+Could you help - how do I subscribe to your newsletter?,NEWSLETTER,newsletter_subscription,low
+i'd like to edit my personal details. this is urgent.,ACCOUNT,edit_account,low
+"hi, do you offer money-back guarantees?",REFUND,check_refund_policy,high
+"good morning, i want to get a refund for my purchase",REFUND,get_refund,high
+"Could you help - cancel my order asap, I ordered the wrong item",CANCEL,cancel_order,high
+I'd like to edit my personal details. Thanks in advance.,ACCOUNT,edit_account,low
+How do I log into a secondary account?,ACCOUNT,switch_account,low
+what are my payment options at checkout?,PAYMENT,check_payment_methods,medium
+"Hello, sign me up for promotional emails",NEWSLETTER,newsletter_subscription,low
+I need to talk to someone about my order. Thanks in advance.,CONTACT,contact_customer_service,low
+could you help - how do i add a new shipping address to my account?,SHIPPING_ADDRESS,set_up_shipping_address,medium
+I want to lodge a complaint about the recent experience,FEEDBACK,complaint,high
+"Hi, I'm trynig to find a copy of my invoice",INVOICE,check_invoice,medium
+Wheer do I post a product review? Thanks in advance.,FEEDBACK,review,low
+Quick question - what is your refund policy?,REFUND,check_refund_policy,high
+Can you email me a PDF invoice for order #5500?,INVOICE,get_invoice,medium
+your support has been awful and i'm furious about it,FEEDBACK,complaint,high
+The signup form keeps rejecting my email. Looking forward to hearing back.,ACCOUNT,registration_problems,low
+Please remove my account from your system. I'd appreciate a quick reply.,ACCOUNT,delete_account,high
+I need to look up an old invoice,INVOICE,check_invoice,medium
+How many days do I haev to return an item? Thanks!,REFUND,check_refund_policy,high
+Quick question - the password reset email never arrived,ACCOUNT,recover_password,high
+I have a question: I need to update the email on my profile,ACCOUNT,edit_account,low
+"hi team, i want to get a for my purchase",REFUND,get_refund,high
+"Hi team, I need to update the email on my profile",ACCOUNT,edit_account,low
+"Please refund order #3300, the item arrived broken. Thanks!",REFUND,get_refund,high
+could you help - please send me the invoice for my recent order,INVOICE,get_invoice,medium
+"excuse me, i want to speak with a human agent, not a bot",CONTACT,contact_human_agent,low
+"Hey there, how can I leave a review for the product I bought?",FEEDBACK,review,low
+I'd like to edit my personal details. Looking forward to hearing back.,ACCOUNT,edit_account,low
+Why can't I create my account? It says invalid input.,ACCOUNT,registration_problems,low
+"Quick question - I want to speak with a human agent, not a bot",CONTACT,contact_human_agent,low
+quick question - what shipping methods are available?,DELIVERY,delivery_options,medium
+please change the size on my recent order before it ships,ORDER,change_order,medium
+Why can't I create my account? It says invalid input.,ACCOUNT,registration_problems,low
+"Hi team, how do I add a new shipping address to my account?",SHIPPING_ADDRESS,set_up_shipping_address,medium
+"Hello, I'm still waiting for my refund, where is it?",REFUND,track_refund,high
+i have a question: how can i sign up for an account?,ACCOUNT,create_account,low
+what is your refund policy?,REFUND,check_refund_policy,high
+can i have two accounts and switch between them? i'd appreciate a qucik reply.,ACCOUNT,switch_account,low
+I'd like to receive your weekly emails. I'd appreciate a quick reply.,NEWSLETTER,newsletter_subscription,low
+can i add another item to odrer #4422?,ORDER,change_order,medium
+How do I close my account? I no longer want to use the service.,ACCOUNT,delete_account,high
+Quick question - how do I add a new shipping address to my account?,SHIPPING_ADDRESS,set_up_shipping_address,medium
+I have a questio:n can you help me modify my account settings?,ACCOUNT,edit_account,low
+"Good morning, can you help me my account settings?",ACCOUNT,edit_account,low
+I have a question: what shipping methods are available?,DELIVERY,delivery_options,medium
+"Hi team, what shipping methods are available?",DELIVERY,delivery_options,medium
+quick question - i want to create a new accoutn on your platform,ACCOUNT,create_account,low
+Can I add another item to order #4422? Thanks!,ORDER,change_order,medium
+Could you help - where is my order? It hasn't arrived yet,ORDER,track_order,medium
+"Hello, I forgot my password and can't log in",ACCOUNT,recover_password,high
+Can you tlel me the status of order #9001?,ORDER,track_order,medium
+"Excuse me, how do I edit the delivery address?",SHIPPING_ADDRESS,change_shipping_address,medium
+"hello, i'm getting an error when trying to register",ACCOUNT,registration_problems,low
+"hi, i need to change the shipping address on my ordre",SHIPPING_ADDRESS,change_shipping_address,medium
+Can I get a full refund if I'm not satisfied?,REFUND,check_refund_policy,high
+your support has been awful and i'm furious about it,FEEDBACK,complaint,high
+Can I pay with PayPal? Is bank transfer an option?,PAYMENT,check_payment_methods,medium
+could you help - i need to change the shipping address on my order,SHIPPING_ADDRESS,change_shipping_address,medium
+"Good morning, my payment was declined but my cadr is fine",PAYMENT,payment_issue,high
+Quick question - how do I contact your support,CONTACT,contact_customer_service,low
+I'd like to share my feedback on a recent purchase,FEEDBACK,review,low
+"Hi, which payment methods do you accept?",PAYMENT,check_payment_methods,medium
+"Hey ther,e I want to update the quantity in my order",ORDER,change_order,medium
+can you check on the status my refund?,REFUND,track_refund,high
+I have a questio:n I want to get a refund for my purchase,REFUND,get_refund,high
+"Hello, which payment methods do you accept?",PAYMENT,check_payment_methods,medium
+"Hello, what are my payment options at checkout?",PAYMENT,check_payment_methods,medium
+"good morning, how do i add a new shipping address to my account?",SHIPPING_ADDRESS,set_up_shipping_address,medium
+when can i expect my package? many thakns.,DELIVERY,delivery_period,medium
+"Hi team, what is your refund policy?",REFUND,check_refund_policy,high
+"hi, i need to use a different user profile",ACCOUNT,switch_account,low
+can you tell me the status of order #9001?,ORDER,track_order,medium
+Quick question - I'd like to place a new order,ORDER,place_order,medium
+Can you help me open a customer account? Cheers.,ACCOUNT,create_account,low
+i have a question: how do i contact your support team?,CONTACT,contact_customer_service,low
+please change the size on my recent order before it ships,ORDER,change_order,medium
+"Hello, I want to delete my account permanently",ACCOUNT,delete_account,high
+"Hey there, I keep getting 'username already taken' but I'm new",ACCOUNT,registration_problems,low
+i want to save a second address for deliveries,SHIPPING_ADDRESS,set_up_shipping_address,medium
+tracking number says delivered but i never got it. please assist.,ORDER,track_order,medium
+Could you help - how do I subscribe to your newsletter?,NEWSLETTER,newsletter_subscription,low
+could you help - i want to create a new account on your platform,ACCOUNT,create_account,low
+"hi team, when will my refund be processed?",REFUND,track_refund,high
+can you show me invoice number 8842?,INVOICE,check_invoice,medium
+Quick question - I want to switch to a different account,ACCOUNT,switch_account,low
+"Hi team, what is your refund policy?",REFUND,check_refund_policy,high
+how long will my order take to arrive?,DELIVERY,delivery_period,medium
+Plesae remove my accuont frmo your system. Thanks!,ACCOUNT,delete_account,high
+"Hi team, the password reset email never arrived",ACCOUNT,recover_password,high
+my payment was declined but my card is fine,PAYMENT,payment_issue,high
+i want to save a second address for deliveries,SHIPPING_ADDRESS,set_up_shipping_address,medium
+Can I add another item to order #4422? Thanks!,ORDER,change_order,medium
+"Help, the payment failed but money was deducted!",PAYMENT,payment_issue,high
+"i changed my mind, can i cancel my recent purchase?",CANCEL,cancel_order,high
+Can you show me inovice number 8842?,INVOICE,check_invoice,medium
+"I'm ready to buy, what's next?",ORDER,place_order,medium
+"please refund order #3300, the item arrived brokne. looking forward to hearing bac.k",REFUND,get_refund,high
+why can't i create my account? it says invalid input.,ACCOUNT,registration_problems,low
+"Hello, the password reest email never arrived",ACCOUNT,recover_password,high
+Can I unsubscribe from the newsletter please?,NEWSLETTER,newsletter_subscription,low
+how many days do i have to rteurn an item?,REFUND,check_refund_policy,high
+"hey there, when will my reufnd be processed?",REFUND,track_refund,high
+i need an invoice for accounting. thanks!,INVOICE,get_invoice,medium
+Can you help me open a csutomer account? Looking forward to hearing back.,ACCOUNT,create_account,low
+I need to talk to someone about my order. Looking forward to hearing back.,CONTACT,contact_customer_service,low
+i have a question: i want to create a new account on your platform,ACCOUNT,create_account,low
+"I have a question: I watn to speak with a human agent, not a bot",CONTACT,contact_human_agent,low
+"Hello, I'd like to download an invoice",INVOICE,get_invoice,medium
+"Hi tema, you help me complete my purchase?",ORDER,place_order,medium
+Do you tkae Apple Pay or only credit cards? Please assist.,PAYMENT,check_payment_methods,medium
+Can a live representative help me? The chatbot isn't enough.,CONTACT,contact_human_agent,low
+Can you reroute my package to a new address?,SHIPPING_ADDRESS,change_shipping_address,medium
+How do I log into a secondary account?,ACCOUNT,switch_account,low
+"hey there, i need to use a different user profile",ACCOUNT,switch_account,low
+it's been 10 days and no refund yet.,REFUND,track_refund,high
+"Good morning, can you hlep me modify my account settings?",ACCOUNT,edit_account,low
+can you check on the status of my refun?d,REFUND,track_refund,high
+"good morning, what are my delivery options for this order?",DELIVERY,delivery_options,medium
+i was charged twice for the same order! this is urgent.,PAYMENT,payment_issue,high
+how many days do i have to return an item?,REFUND,check_refund_policy,high
+Tracking number syas delivered but I never got it. Please assist.,ORDER,track_order,medium
+how many days do i have to return an item? this is urgent.,REFUND,check_refund_policy,high
+"Good morning, do you offer money-back guarantees?",REFUND,check_refund_policy,high
+Can I add another item to order #4422? This is urgent.,ORDER,change_order,medium
+how do i close my account? i no longer wnat to the service.,ACCOUNT,delete_account,high
+please connect me to a real person. looking forward to hearing back.,CONTACT,contact_human_agent,low
+"hi team, i want to lodge a complaint about the recent experience",FEEDBACK,complaint,high
+Please remove my account from your system. Looking forward to hearing back.,ACCOUNT,delete_account,high
+"Hi, how do I request a refund?",REFUND,get_refund,high
+Where can I view my past invoices? Thanks in advance.,INVOICE,check_invoice,medium
+"Hey tehre, what are my delivery options for this order?",DELIVERY,delivery_options,medium
+"Hi team, what is your refund policy?",REFUND,check_refund_policy,high
+"Good morning, what are my delivery options for this order?",DELIVERY,delivery_options,medium
+"Wrong address on my order, plaese update it! Many thanks.",SHIPPING_ADDRESS,change_shipping_address,medium
+"Hi, whta shipping metohds are available?",DELIVERY,delivery_options,medium
+"Hello, I need to cancel my order immediately",CANCEL,cancel_order,high
+please cancel order #1234 before it ships.,CANCEL,cancel_order,high
+I'd like to share my feedback on a recent purchase,FEEDBACK,review,low
+"hi team, i need to modify my existing order",ORDER,change_order,medium
+can you reroute package to a new address?,SHIPPING_ADDRESS,change_shipping_address,medium
+How do I log into a secondary account?,ACCOUNT,switch_account,low
+"hey there, whta are my delivery options for this order?",DELIVERY,delivery_options,medium
+"Hi tea,m I'm sitll waiting for my refund, where is it?",REFUND,track_refund,high
+What is your customer service phone number?,CONTACT,contact_customer_service,low
+Do you offer express delivery? I'm in a hurry.,DELIVERY,delivery_options,medium
+I need to talk to someone about my order. Cheesr.,CONTACT,contact_customer_service,low
+"good morning, how can i sign up for an account?",ACCOUNT,create_account,low
+I was charged twice for the same order! Many thanks.,PAYMENT,payment_issue,high
+I need to change the shipping address on my order,SHIPPING_ADDRESS,change_shipping_address,medium
+can i pay with paypal? is bank transfer an option?,PAYMENT,check_payment_methods,medium
+Quick question - I want to lodge a complaint about the recent experience,FEEDBACK,complaint,high
+i a question: i need to look up an old invoice,INVOICE,check_invoice,medium
+I have a question: I need to use a different user profile,ACCOUNT,switch_account,low
+do you take apple pay or only credit cards? this is urgent.,PAYMENT,check_payment_methods,medium
+I'd like to receive your weekly Thanks in advance.,NEWSLETTER,newsletter_subscription,low
+"Quick question - I'm having troulbe paying, the page errors out",PAYMENT,payment_issue,high
+"I changed my mind, can I cancel my recent purchase?",CANCEL,cancel_order,high
+I have a question: I want to delete my account permanently,ACCOUNT,delete_account,high
+i have a question: please send me the invoice for my recent order,INVOICE,get_invoice,medium
+"excuse me, how do i request a",REFUND,get_refund,high
+Can I choose same-day shipping?,DELIVERY,delivery_options,medium
+"Good morning, I need a human agent right now",CONTACT,contact_human_agent,low
+"Hello, I forgot my password and cant' log in",ACCOUNT,recover_password,high
+quick question - how do i contact your support team?,CONTACT,contact_customer_service,low
+how do I subscribe to your newsletter?,NEWSLETTER,newsletter_subscription,low
+Quick question - I want to update the quantity in my order,ORDER,change_order,medium
+How do I order thsi product? Thanks!,ORDER,place_order,medium
+Quick question - how do I request a refund?,REFUND,get_refund,high
+How do I log into a secondary account?,ACCOUNT,switch_account,low
+could you help - keep getting 'username already taken' but i'm new,ACCOUNT,registration_problems,low
+"hey there, how do i track my shipment?",ORDER,track_order,medium
+please cancel order #1234 before it ships. i'd appreciate a quick reply.,CANCEL,cancel_order,high
+Can I set up multiple addresses on my profile? Looking forward to hearing back.,SHIPPING_ADDRESS,set_up_shipping_address,medium
+"Quick question - I'm having troubel paying, the page errors out",PAYMENT,payment_issue,high
+why can't i create my account? it says invalid input.,ACCOUNT,registration_problems,low
+"hey there, i need my account deleted right away",ACCOUNT,delete_account,high
+how many dyas do i have to return an item?,REFUND,check_refund_policy,high
+what shipping methods are available?,DELIVERY,delivery_options,medium
+Can I pay with PayPal? Is bank transfre an option?,PAYMENT,check_payment_methods,medium
+do you take apple pay or only credit cards? looking forward to hearing back.,PAYMENT,check_payment_methods,medium
+Please connect me to a real person.,CONTACT,contact_human_agent,low
+"Hello, how can I sign up for an account?",ACCOUNT,create_account,low
+What's the typical delivery time to my,DELIVERY,delivery_period,medium
+"Good morning, I'm extremely unhappy with the service",FEEDBACK,complaint,high
+when can i expect my package? cheers.,DELIVERY,delivery_period,medium
+i'd like to receive your weekly emails. this is urgent.,NEWSLETTER,newsletter_subscription,low
+"i'd like to register, what's the process? this is urgent.",ACCOUNT,create_account,low
+Why can't I create my account? It says invalid ipnut.,ACCOUNT,registration_problems,low
+quick question - what shipipng methods are available?,DELIVERY,delivery_options,medium
+"Wrong address on my order, please it! Thanks!",SHIPPING_ADDRESS,change_shipping_address,medium
+"Hello, the password reset never arrived",ACCOUNT,recover_password,high
+could you help - how do contact your support team?,CONTACT,contact_customer_service,low
+"I changed my mind, can I cancel my recent purchase?",CANCEL,cancel_order,high
+"Hello, I want to get a refund for my purchase",REFUND,get_refund,high
+Your support has been awful and I'm furious about it,FEEDBACK,complaint,high
+your support has been and i'm furious about it,FEEDBACK,complaint,high
+can i pay with paypal? is bank transfer an option?,PAYMENT,check_payment_methods,medium
+can you help me open a custmoer account? cheers.,ACCOUNT,create_account,low
+"hello, i'm extremely unhappy with the service",FEEDBACK,complaint,high
+Why can't I create my account? It says invalid input.,ACCOUNT,registration_problems,low
+when will my refund be processed?,REFUND,track_refund,high
+can you tell me the status of oredr #9001?,ORDER,track_order,medium
+"help, the payment failed but money was deducted!",PAYMENT,payment_issue,high
+"Hi team, I'm having trouble paying, the page errors out",PAYMENT,payment_issue,high
+Can I set up multiple addresses on my profile?,SHIPPING_ADDRESS,set_up_shipping_address,medium
+"Hi, I need to cancel my order immediately",CANCEL,cancel_order,high
+"Hi tema, I want to deltee my account permanently",ACCOUNT,delete_account,high
+how many days do i have to return an item? many thanks.,REFUND,check_refund_policy,high
+I have a question: adding new address beofre my next order,SHIPPING_ADDRESS,set_up_shipping_address,medium
+When can I expect my package?,DELIVERY,delivery_period,medium
+question - how do I track my shipment?,ORDER,track_order,medium
+can i set up multiple addresses on my profile?,SHIPPING_ADDRESS,set_up_shipping_address,medium
+"hello, i want to speka with a human not a bot",CONTACT,contact_human_agent,low
+How do I close my account? I no longer want to use the,ACCOUNT,delete_account,high
+Can you reroute my package to a new address?,SHIPPING_ADDRESS,change_shipping_address,medium
+Quikc question - can you help me complete my purchase?,ORDER,place_order,medium
+Tracking number says delivered but I never got it.,ORDER,track_order,medium
+"good morning, i want to delete my account permanently",ACCOUNT,delete_account,high
+i want to save a second address for delivereis,SHIPPING_ADDRESS,set_up_shipping_address,medium
+"Hey there, I need to modify my existing order",ORDER,change_order,medium
+What's the typical delivery time to my country?,DELIVERY,delivery_period,medium
+Could you help - I need to update the email on my profile,ACCOUNT,edit_account,low
+Can I add another item to order #4422? I'd appreciate a quick reply.,ORDER,change_order,medium
+quick question - sgin me up for promotional emails,NEWSLETTER,newsletter_subscription,low
+"Good morning, how do I add a new shipping address to my account?",SHIPPING_ADDRESS,set_up_shipping_address,medium
+"Help, the payment failed but money was deducted!",PAYMENT,payment_issue,high
+please connect me to a real person. this is urgent.,CONTACT,contact_human_agent,low
+"Hi, where my order? It hasn't arrived yet",ORDER,track_order,medium
+I'd like to donwload an invoice,INVOICE,get_invoice,medium
+where do i post a product review? this is urgent.,FEEDBACK,review,low
+"Hel,p the payment failed but money was deducted!",PAYMENT,payment_issue,high
+Quick question - what shipping methods are,DELIVERY,delivery_options,medium
+It's been 10 days and no refund yet.,REFUND,track_refund,high
+the password reset email never arrived,ACCOUNT,recover_password,high
+can you reroute my package to a new address?,SHIPPING_ADDRESS,change_shipping_address,medium
+"Hey there, I need to update the email on my profile",ACCOUNT,edit_account,low
+"hi team, how can i sign up for an account?",ACCOUNT,create_account,low
+when can i expect my pakcage? thanks in advance.,DELIVERY,delivery_period,medium
+I was charged twice for the same order! Cheers.,PAYMENT,payment_issue,high
+I'd like to edit my personal details. Thanks!,ACCOUNT,edit_account,low
+I have a question: I'd like to place a new order,ORDER,place_order,medium
+can you help me modify my acconut settings?,ACCOUNT,edit_account,low
+When can I expect my package?,DELIVERY,delivery_period,medium
+Can I add another item to order #4422? Many thanks.,ORDER,change_order,medium
+"hello, my payment was declined but my card is fien",PAYMENT,payment_issue,high
+I'd like to share my feedback on a recent purchase,FEEDBACK,review,low
+How can I change account information?,ACCOUNT,edit_account,low
+Your support has been awful and I'm furious about it,FEEDBACK,complaint,high
+i have a question: do you offer mnoey-back guarantees?,REFUND,check_refund_policy,high
+"Hello, I'd like to place a new order",ORDER,place_order,medium
+How do I order this product? Cheers.,ORDER,place_order,medium
+"hey there, what are my payment options at checkout?",PAYMENT,check_payment_methods,medium
+"Hi team, I'm trying to find a copy of invoice",INVOICE,check_invoice,medium
+"hello, estimated delivery for standard shipping?",DELIVERY,delivery_period,medium
+"excuse me, how can i sign up for an account?",ACCOUNT,create_account,low
+"Hello, I'm extremely unhappy with the service",FEEDBACK,complaint,high
+"Hi, is there a support email I can us?e",CONTACT,contact_customer_service,low
+I'd like to receive your weekly emails. Tahnks!,NEWSLETTER,newsletter_subscription,low
+I'd like to edit my personal details.,ACCOUNT,edit_account,low
+Can you help me open a customer account? Many thanks.,ACCOUNT,create_account,low
+your support has been awful and i'm furious about it,FEEDBACK,complaint,high
+i have a question: how do i rqeuest a refund?,REFUND,get_refund,high
+"i'm ready to buy, what's next?",ORDER,place_order,medium
+how do I edit the delivery address?,SHIPPING_ADDRESS,change_shipping_address,medium
+"Hi team, I want to create a new account on your platform",ACCOUNT,create_account,low
+"Hi, can you help me complete my purchase?",ORDER,place_order,medium
+how do i close my account? i no longer want to use the service.,ACCOUNT,delete_account,high
+Please chagne the size on my recent order before it ships,ORDER,change_order,medium
+"Hey there, I want to lodge a complaint abuot the recent experience",FEEDBACK,complaint,high
+"Hi team, I need a human agent right now",CONTACT,contact_human_agent,low
+"hi, how do i edit the delivery address?",SHIPPING_ADDRESS,change_shipping_address,medium
+I want to lodge a complaint about the rceent experience,FEEDBACK,complaint,high
+can you help me complete my pucrhase?,ORDER,place_order,medium
+"hi team, how can i sign up for an account?",ACCOUNT,create_account,low
+"hello, i need to update the email on my profile",ACCOUNT,edit_account,low
+"excuse me, i want to delete my account permanently",ACCOUNT,delete_account,high
+Can I unsubscribe from the newsletter please?,NEWSLETTER,newsletter_subscription,low
+"Excuse me, I need to look up an old invoice",INVOICE,check_invoice,medium
+how many days do i have to return an item?,REFUND,check_refund_policy,high
+can i unsubscribe from the newsletter please?,NEWSLETTER,newsletter_subscription,low
+"Excuse me, what shipping methods are available?",DELIVERY,delivery_options,medium
+"Good morning, how do I track my shipment?",ORDER,track_order,medium
+I'd liek to download an invoice,INVOICE,get_invoice,medium
+what's the typical delivery time to my country?,DELIVERY,delivery_period,medium
+"Help, the payment failed but money was deducted!",PAYMENT,payment_issue,high
+I have a question: the password reset email never arrived,ACCOUNT,recover_password,high
+"Hey there, what are my delivery options for this order?",DELIVERY,delivery_options,medium
+When can I expect my package? I'd appreciate a quick reply.,DELIVERY,delivery_period,medium
+can i pay with paypal? is bank transfer an option?,PAYMENT,check_payment_methods,medium
+I need my money bakc for this defective product!,REFUND,get_refund,high
+"Hi team, I want to get a refund for my purchaes",REFUND,get_refund,high
+I want to create a new account on your platform,ACCOUNT,create_account,low
+I'd lkie to edit my personal details. Thanks in advance.,ACCOUNT,edit_account,low
+Plesae cancel order #1234 before it ships. Thanks!,CANCEL,cancel_order,high
+Your support has been awful and I'm about it,FEEDBACK,complaint,high
+I need to talk to someone about my orde.r Thanks in advance.,CONTACT,contact_customer_service,low
+Quick question - how can I leave a review for the product I bought?,FEEDBACK,review,low
+How mayn days do have to return an item?,REFUND,check_refund_policy,high
+Could you help - what is your refund,REFUND,check_refund_policy,high
+Can I add another item to ordre #4422? Cheers.,ORDER,change_order,medium
+Could you help - I want to update the quantity in my order,ORDER,change_order,medium
+Can you help me open a customer account? Thanks!,ACCOUNT,create_account,low
+How can I change my account information?,ACCOUNT,edit_account,low
+Your support has been awful and I'm furious it,FEEDBACK,complaint,high
+"Hi, I want to switch to a different account",ACCOUNT,switch_account,low
+Please remove my account from your system. I'd appreciate a quick reply.,ACCOUNT,delete_account,high
+"Excuse me, what shipping methods are available?",DELIVERY,delivery_options,medium
+Where can I view my past invoices? I'd appreciate a quick reply.,INVOICE,check_invoice,medium
+"Good morning, when will my refund be processed?",REFUND,track_refund,high
+Please connect me to a real person. Looking forward to hearing back.,CONTACT,contact_human_agent,low
+quick question - is there a support email i can use?,CONTACT,contact_customer_service,low
+Can I pay with PayPal? Is bank transfer an option?,PAYMENT,check_payment_methods,medium
+Can you emali me a PDF invoice for order #5500?,INVOICE,get_invoice,medium
+how many days do i have to return an item? many thanks.,REFUND,check_refund_policy,high
+I need my money back for this defective product!,REFUND,get_refund,high
+The signup form keeps rejecting my email. Looking forward to hearing back.,ACCOUNT,registration_problems,low
+Can help me open a customer account? This is urgent.,ACCOUNT,create_account,low
+"Excuse me, I want to update the quantity in my order",ORDER,change_order,medium
+"hey there, i want to create a new account on your platform",ACCOUNT,create_account,low
+i watn to save a second address for deliveries,SHIPPING_ADDRESS,set_up_shipping_address,medium
+I need to talk to someone about my order. Thanks in avdance.,CONTACT,contact_customer_service,low
+could you help - i forgot my psasword and can't log in,ACCOUNT,recover_password,high
+"This is unacceptable, I want to file a formal complaint! Thanks!",FEEDBACK,complaint,high
+Do you take Apple Pay or only credit cards?,PAYMENT,check_payment_methods,medium
+When can I expect my package? Thanks in advance.,DELIVERY,delivery_period,medium
+I need to cancel my order immediately,CANCEL,cancel_order,high
+"Hello, how do I request a refund?",REFUND,get_refund,high
+I have a question: I'm extremely unhappy with the service,FEEDBACK,complaint,high
+"Wrong address on my order, pelase update it! Thanks in",SHIPPING_ADDRESS,change_shipping_address,medium
+i have a question: where is my order? it hasn't arrived yet,ORDER,track_order,medium
+"Good morning, how do I contact your support team?",CONTACT,contact_customer_service,low
+"Hi, sign me up for promotional emails",NEWSLETTER,newsletter_subscription,low
+I need to tlak to someone about my order. This urgent.,CONTACT,contact_customer_service,low
+Could you help - how do I add a new shipping address to my account?,SHIPPING_ADDRESS,set_up_shipping_address,medium
+Could you help - how do I your support team?,CONTACT,contact_customer_service,low
+"Hey there, I forgot my password and can't log in",ACCOUNT,recover_password,high
+"I changed my mind, can I cancel my recetn purchase?",CANCEL,cancel_order,high
+How do I close my account? I no longer want to use the service.,ACCOUNT,delete_account,high
+"Locked out of my account, password recovery isn't working!",ACCOUNT,recover_password,high
+The signup form keeps rejecting my email. Please assist.,ACCOUNT,registration_problems,low
+"Hey there, wehre is my order? It hasn't arrived yet",ORDER,track_order,medium
+Can I get a full refund if I'm not satisfied?,REFUND,check_refund_policy,high
+how do i order this product? please assist.,ORDER,place_order,medium
+I need my money back for this defective product!,REFUND,get_refund,high
+"Hello, adding a new address before my next order",SHIPPING_ADDRESS,set_up_shipping_address,medium
+"Hi, I want to get a refund for my purchase",REFUND,get_refund,high
+How do I log into a secondary acconut?,ACCOUNT,switch_account,low
+"good morning, i want to delete my account permanently",ACCOUNT,delete_account,high
+"Hey there, how do I subscribe to your newsletter?",NEWSLETTER,newsletter_subscription,low
+Can a live representative help me? The chatbot isn't enough.,CONTACT,contact_human_agent,low
+I was charged twice for the same order!,PAYMENT,payment_issue,high
+i keep getting 'username already taken' but i'm new,ACCOUNT,registration_problems,low
+"Locked out of my account, passwodr recovery isn't working!",ACCOUNT,recover_password,high
+Can you rerouet my package to a new address?,SHIPPING_ADDRESS,change_shipping_address,medium
+"Hi, what shipping methods are available?",DELIVERY,delivery_options,medium
+Tracking number says deliveerd but I never got it. This is urgent.,ORDER,track_order,medium
+Can you tell me the status of order #9001?,ORDER,track_order,medium
+"Hello, I'm trying to find a copy of my invoice",INVOICE,check_invoice,medium
+"hi, i want to create a new account on your platform",ACCOUNT,create_account,low
+"Hi, I nede to change the shipping address on my order",SHIPPING_ADDRESS,change_shipping_address,medium
+How do I log into a account?,ACCOUNT,switch_account,low
+I need my money back for this defective product!,REFUND,get_refund,high
+I was charged twice for the order! Looking forward to hearing back.,PAYMENT,payment_issue,high
+How do I order this product? Thanks in advance.,ORDER,place_order,medium
+"Good morning, how do I track my shipment?",ORDER,track_order,medium
+Quick question - adding a new address before my next order,SHIPPING_ADDRESS,set_up_shipping_address,medium
+"hey there, what shipping methods are available?",DELIVERY,delivery_options,medium
+"Hey there, I forgot my password and can't log in",ACCOUNT,recover_password,high
+"hi, i need to update the email on my profile",ACCOUNT,edit_account,low
+"Hello, what shipping methods are available?",DELIVERY,delivery_options,medium
+where can i view my past invoices?,INVOICE,check_invoice,medium
+How do I order this product? Looking forward to haering back.,ORDER,place_order,medium
+I'd like to share my feedback on a recent purchase,FEEDBACK,review,low
+How do I close my account? I no longre want to use the service.,ACCOUNT,delete_account,high
+tracking numebr says delivered but i never got it. this is,ORDER,track_order,medium
+quick question - i need to look up an old invoice,INVOICE,check_invoice,medium
+I want to save a seocnd address for deliveries,SHIPPING_ADDRESS,set_up_shipping_address,medium
+It's been 10 days and no refund yet. Thnaks!,REFUND,track_refund,high
+"Hi team, I forgot my password and can't log in",ACCOUNT,recover_password,high
+I'd like to share my feedback on a recent purchase,FEEDBACK,review,low
+"Hello, I need a human agent right now",CONTACT,contact_human_agent,low
+"hi, what are my delivery options for this order?",DELIVERY,delivery_options,medium
+"i'm ready to buy, what's next?",ORDER,place_order,medium
+"Godo morning, do you offer money-back guarantees?",REFUND,check_refund_policy,high
+do you take apple pay or only credit cards? thanks!,PAYMENT,check_payment_methods,medium
+What is your customer service phone number?,CONTACT,contact_customer_service,low
+"I'm ready to buy, what's next?",ORDER,place_order,medium
+"I'd like to register, what's the process? Cheers.",ACCOUNT,create_account,low
+Can I have two accounts and switch between them? Please assist.,ACCOUNT,switch_account,low
+"hi team, i'm extremely unhappy with the service",FEEDBACK,complaint,high
+Can you show me invoice number 8842?,INVOICE,check_invoice,medium
+Where do I post a product review?,FEEDBACK,review,low
+"Wrong address on my order, please update it! Thanks!",SHIPPING_ADDRESS,change_shipping_address,medium
+Could you help - I'd like to download an invoice,INVOICE,get_invoice,medium
+how do i close my account? i no longer want to use the service.,ACCOUNT,delete_account,high
+Can you show invoice number 8842?,INVOICE,check_invoice,medium
+quick question - which payment methods do you accept?,PAYMENT,check_payment_methods,medium
+could you help - sgin me up for promotional emails,NEWSLETTER,newsletter_subscription,low
+Can I choose same-day shipping?,DELIVERY,delivery_options,medium
+Could you help - which payment methods do you accept?,PAYMENT,check_payment_methods,medium
+can you email me a pdf invoice for order #5500?,INVOICE,get_invoice,medium
+Can I unsubscribe frmo the newsletter please?,NEWSLETTER,newsletter_subscription,low
+"hi team, do you offer money-back guarantees?",REFUND,check_refund_policy,high
+I have a question: I want to delete my account permanently,ACCOUNT,delete_account,high
+Can I choose same-day shipping? Thanks!,DELIVERY,delivery_options,medium
+Quick question - how can I sign up for an account?,ACCOUNT,create_account,low
+Do you take Apple Pay or only credit cards? Looking forward to hearing back.,PAYMENT,check_payment_methods,medium
+Quick questino - I want to write a review of my experience,FEEDBACK,review,low
+What is your customer service phone number?,CONTACT,contact_customer_service,low
+I want to update the quantity in my order,ORDER,change_order,medium
+How do I log into a secondray accuont?,ACCOUNT,switch_account,low
+"I'd like to register, what's the process? Many thnaks.",ACCOUNT,create_account,low
+"Good morning, how do I edit the delivery address?",SHIPPING_ADDRESS,change_shipping_address,medium
+"Excuse me, I want to create a new account on your platform",ACCOUNT,create_account,low
+"Hi, I need a human agnet right now",CONTACT,contact_human_agent,low
+Can you show me invoice number 8842?,INVOICE,check_invoice,medium
+"Hello, I need to use a different user profile",ACCOUNT,switch_account,low
+"Hello, I want to delete my account permanently",ACCOUNT,delete_account,high
+Where can I view my past invoices?,INVOICE,check_invoice,medium
+Can I get a full refund if I'm not satisfied?,REFUND,check_refund_policy,high
+how do i order this prodcut? many thanks.,ORDER,place_order,medium
+Quick question - how do I contact your support team?,CONTACT,contact_customer_service,low
+"Good morning, I'm still waiting for my refund, whree is it?",REFUND,track_refund,high
+"excuse me, i'm having trouble paying, the page errors out",PAYMENT,payment_issue,high
+When can I expect my package?,DELIVERY,delivery_period,medium
+Quick question - what are my payment options at cehckout?,PAYMENT,check_payment_methods,medium
+estimated delivery for shippin?g,DELIVERY,delivery_period,medium
+Good I'm getting an error when trying to register,ACCOUNT,registration_problems,low
+"Hey there, cancel my order asap, I ordered the wrong item",CANCEL,cancel_order,high
+I need to modify my existing,ORDER,change_order,medium
+Tracking number says delivered but I never got it. Thanks in advance.,ORDER,track_order,medium
+I haev a question: addign a new address before my next order,SHIPPING_ADDRESS,set_up_shipping_address,medium
+"Hello, I'd like to place a new order",ORDER,place_order,medium
+"Hi team, I want to delete my account permaenntly",ACCOUNT,delete_account,high
+I have a question: how do I subscribe to your newsletter?,NEWSLETTER,newsletter_subscription,low
+"Hi team, I'm having trouble paying, the page errors out",PAYMENT,payment_issue,high
+"I changed my mind, can I cancel my recent purchase?",CANCEL,cancel_order,high
+Can you chekc on the status of my refund?,REFUND,track_refund,high
+Could you help - how can I leave a review for the product I bought?,FEEDBACK,review,low
+"i changed my mind, can i cancel my recent purchase?",CANCEL,cancel_order,high
+"hey there, cancel my order asap, i ordered the wrong item",CANCEL,cancel_order,high
+Could you help - do you offer money-back guarantees?,REFUND,check_refund_policy,high
+I have a question: I wnat to update the quantity in my order,ORDER,change_order,medium
+Can you email me a PDF invoice for order #5500?,INVOICE,get_invoice,medium
+Quick question - is there a support email I can use?,CONTACT,contact_customer_service,low
+"Hi team, the password reset email never arrived",ACCOUNT,recover_password,high
+"Excuse me, how do I track my shipment?",ORDER,track_order,medium
+The singup form keeps rejecting my email. Looikng forward to hearing bac.k,ACCOUNT,registration_problems,low
+Can you tell me the status of order #9001?,ORDER,track_order,medium
+"Hi, cancel my order asap, I ordered the wrong item",CANCEL,cancel_order,high
+I need invoice for accounting. Cheers.,INVOICE,get_invoice,medium
+Can you email me a PDF invoice for order #5500?,INVOICE,get_invoice,medium
+Why can't I create my account? It says invalid input.,ACCOUNT,registration_problems,low
+Could you help - I want to write a review of my experience,FEEDBACK,review,low
+Could you help - I forgot my password and can't log in,ACCOUNT,recover_password,high
+Could you help - I need to look up an old ivnoice,INVOICE,check_invoice,medium
+"Hi, cancel my order asap, I ordered the wrong item",CANCEL,cancel_order,high
+"Could you help - I'm still wiating for my refund, whree is it?",REFUND,track_refund,high
+Can I get a full refnud if I'm not satisfied?,REFUND,check_refund_policy,high
+"Hi, I'm extremely unhappy with the service",FEEDBACK,complaint,high
+I need to change the shipping address on my order,SHIPPING_ADDRESS,change_shipping_address,medium
+quick question - i want to create a new account on your pltaform,ACCOUNT,create_account,low
+i have a question: how do i add a new shipping address to my account?,SHIPPING_ADDRESS,set_up_shipping_address,medium
+"i'm ready to buy, what's nxet?",ORDER,place_order,medium
+Please change the size on my recent order before it ships,ORDER,change_order,medium
+can you reroute my package to a new address?,SHIPPING_ADDRESS,change_shipping_address,medium
+I have a question: how can I sign up for an account?,ACCOUNT,create_account,low
+Quick qeustion - I want to delete my account peramnently,ACCOUNT,delete_account,high
+"Please refund order #3300, the item arrived broken. Cheers.",REFUND,get_refund,high
+how many days do i have to return an item? thanks!,REFUND,check_refund_policy,high
+"Hi team, I need a human agent right now",CONTACT,contact_human_agent,low
+I'd liek to edit my personal details.,ACCOUNT,edit_account,low
+Please chnage the size on my recent order before it ships,ORDER,change_order,medium
+"Hi, I want to get a refund for my purchase",REFUND,get_refund,high
+"Good morning, I'm tyring to find a copy of my invoice",INVOICE,check_invoice,medium
+"Help, the payment failed but money was deducetd!",PAYMENT,payment_issue,high
+Please cancel order #1234 before it ships. Thanks!,CANCEL,cancel_order,high
+"hello, cancel my order asap, i ordered the wrong item",CANCEL,cancel_order,high
+Can you show ivnoice number 8842?,INVOICE,check_invoice,medium
+Can you check on the status of my refund?,REFUND,track_refund,high
+Could you help - I want to write a review of my experience,FEEDBACK,review,low
+Can I unsubscribe from the newsletetr please?,NEWSLETTER,newsletter_subscription,low
+"Help, the payment failed but money was deducted!",PAYMENT,payment_issue,high
+I need to talk to someone about my order.,CONTACT,contact_customer_service,low
+I need my money back for this defective product!,REFUND,get_refund,high
+"Excuse me, estimated delivery for standard shipping?",DELIVERY,delivery_period,medium
+can i chooes same-day shipping? looking forward to hearing back.,DELIVERY,delivery_options,medium
+I haev a question: I need to modify my existing odrer,ORDER,change_order,medium
+"Hey there, how can I leave a review for the product I bought?",FEEDBACK,review,low
+how many days do i have to return an item? many thanks.,REFUND,check_refund_policy,high
+i'd lkie to receive your wekely emails. this is urgent.,NEWSLETTER,newsletter_subscription,low
+Can I unsubscribe from the newsletter please?,NEWSLETTER,newsletter_subscription,low
+Could you help - I'm extremely unhappy with the service,FEEDBACK,complaint,high
+"hello, i want to update the quantity in my order",ORDER,change_order,medium
+"hi, how do i subscribe to your newsletter?",NEWSLETTER,newsletter_subscription,low
+how do i close my account? i no longer watn to use the service.,ACCOUNT,delete_account,high
+The signup form keeps rejecting my email. Thanks in advance.,ACCOUNT,registration_problems,low
+Can reroute my package to a new address?,SHIPPING_ADDRESS,change_shipping_address,medium
+I need to talk to someone about my order.,CONTACT,contact_customer_service,low
+"hey there, adding a new address before my next order",SHIPPING_ADDRESS,set_up_shipping_address,medium
+can you reroute my package to a new address?,SHIPPING_ADDRESS,change_shipping_address,medium
+Why can't I create my account? It says invalid input.,ACCOUNT,registration_problems,low
+"Good morning, I want to speak with a hmuan agent, not a bot",CONTACT,contact_human_agent,low
+"hello, my payment was declined but my card is fine",PAYMENT,payment_issue,high
+Where can I view my past invoices? This is urgent.,INVOICE,check_invoice,medium
+"good morning, how do i contact your support team?",CONTACT,contact_customer_service,low
+Where do I post a product review? Please asssit.,FEEDBACK,review,low
+"Good morning, I need to change the shipping address on my order",SHIPPING_ADDRESS,change_shipping_address,medium
+"Excuse me, how do I request a refund?",REFUND,get_refund,high
+i'd like to edit my personal details. thanks!,ACCOUNT,edit_account,low
+Please change the size on recent oredr before it ships,ORDER,change_order,medium
+I want to save a second address for deliveries,SHIPPING_ADDRESS,set_up_shipping_address,medium
+"Hey there, I want to get a refund for my purchase",REFUND,get_refund,high
+"Hey there, please send me the invoice for my recent",INVOICE,get_invoice,medium
+"Hello, I'm trying to find a copy of my invoice",INVOICE,check_invoice,medium
+What's the typical delivery time to my country?,DELIVERY,delivery_period,medium
+"this is unacceptable, i want to file a formal complaint! thanks!",FEEDBACK,complaint,high
+please change the size on my recent order before it ships,ORDER,change_order,medium
+Where can I view my past invoices? Please assist.,INVOICE,check_invoice,medium
+The signup form keeps rejecting my emali. Looking forward to heairng back.,ACCOUNT,registration_problems,low
+"excuse me, i'd like to download an invoice",INVOICE,get_invoice,medium
+How do I close my account? I no longer want to use the service.,ACCOUNT,delete_account,high
+"Excuse me, I need to use a different user profile",ACCOUNT,switch_account,low
+I'd like to edit my personal details. This is urgent.,ACCOUNT,edit_account,low
+Could help - what are my delivery options for this order?,DELIVERY,delivery_options,medium
+Can you tell me the status of order #9001?,ORDER,track_order,medium
+"Hey theer, how can I leave a review for the product I bought?",FEEDBACK,review,low
+"locked out of my account, password recovery isn't working!",ACCOUNT,recover_password,high
+I want to switch to a different account,ACCOUNT,switch_account,low
+where can i view my pats invoices? i'd aprpeciate a quick reply.,INVOICE,check_invoice,medium
+Could you help - is there a support email I can ues?,CONTACT,contact_customer_service,low
+"hi, i forgot my password and can't log in",ACCOUNT,recover_password,high
+How do I close my account? I no longer want to use the service.,ACCOUNT,delete_account,high
+i need to talk to someone about my order. this is urgent.,CONTACT,contact_customer_service,low
+"Excuse me, I want to lodge a complaint about the recent experinece",FEEDBACK,complaint,high
+"Hello, I need a human agent right now",CONTACT,contact_human_agent,low
+"Hello, how do I add a new shipping address to my account?",SHIPPING_ADDRESS,set_up_shipping_address,medium
+Can you show me invoice number 8842?,INVOICE,check_invoice,medium
+Could you help - I'd like to place a new order,ORDER,place_order,medium
+I need to talk to someone about my order.,CONTACT,contact_customer_service,low
+"Excuse me, can you help complete my purchase?",ORDER,place_order,medium
+Please cancel order #1234 before it ships. Looking forward to hearing back.,CANCEL,cancel_order,high
+"hi team, how do i subscribe to your newslettre?",NEWSLETTER,newsletter_subscription,low
+"i changed my mind, can i cnacel my recent purchase?",CANCEL,cancel_order,high
+I a question: my payment was declined but my cadr is fine,PAYMENT,payment_issue,high
+Can I pay with PayPal? Is bank trnasfer an option?,PAYMENT,check_payment_methods,medium
+"Could you help - cancel my order asap, I odrered the wrong item",CANCEL,cancel_order,high
+I want to save a second address for dleiveries,SHIPPING_ADDRESS,set_up_shipping_address,medium
+"Hi, I need to update the email on my profile",ACCOUNT,edit_account,low
+Can I set up multiple addresses on my profile? Cheers.,SHIPPING_ADDRESS,set_up_shipping_address,medium
