@@ -1,0 +1,625 @@
+instruction,true_category,true_urgency,classical_category,classical_urgency,llm_category,llm_urgency,llm_rationale,llm_confidence
+"Hi, do you offer money-back guarantees?",REFUND,high,REFUND,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Can I have two accounts and switch between them? Please assist.,ACCOUNT,low,ACCOUNT,low,,,,
+"Hello, I want to speak with a human agent, not a bot",CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+"Hi team, I want to write a review of my expeirence",FEEDBACK,low,FEEDBACK,low,FEEDBACK,low,Matched pattern indicating feedback with low urgency.,0.88
+could you help - where is my order? it hasn't arrived yet,ORDER,medium,ORDER,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+"This is unacceptable, I want to file a formal complaint! Looking forward to hearing back.",FEEDBACK,high,FEEDBACK,high,,,,
+"help, the payment failed but money was deducted!",PAYMENT,high,PAYMENT,high,PAYMENT,high,Matched pattern indicating payment with high urgency.,0.88
+Can you help me open a customer account? Cheers.,ACCOUNT,low,ACCOUNT,low,,,,
+tracking number says delivered but i never got it.,ORDER,medium,ORDER,medium,,,,
+I have a question: how do I contact your support team?,CONTACT,low,CONTACT,low,,,,
+"Hey there, how will my order take to arrive?",DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+How many days do I have to return an item? in advance.,REFUND,high,REFUND,high,,,,
+Can you email me a PDF invoice for order #5500?,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+When can I expect my package? This is urgent.,DELIVERY,medium,DELIVERY,medium,,,,
+It's bene 10 days and no refund yet. Please assist.,REFUND,high,REFUND,high,,,,
+where do i post a product review?,FEEDBACK,low,FEEDBACK,low,,,,
+"Good morning, how can I leave a review for the product I bought?",FEEDBACK,low,FEEDBACK,low,FEEDBACK,low,Matched pattern indicating feedback with low urgency.,0.88
+"Hey there, what shipping methods are available?",DELIVERY,medium,DELIVERY,medium,,,,
+I have a question: I need to use a different user profile,ACCOUNT,low,ACCOUNT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+I need an invoice for accounting. Tihs is urgent.,INVOICE,medium,INVOICE,medium,,,,
+Do you offer express delivery? I'm in a hurry.,DELIVERY,medium,DELIVERY,medium,DELIVERY,medium,Matched pattern indicating delivery with medium urgency.,0.88
+"Hey there, I forgot my password and can't log in",ACCOUNT,high,ACCOUNT,high,ACCOUNT,high,Matched pattern indicating account with high urgency.,0.88
+I need to talk to someone about my order. Many thanks.,CONTACT,low,CONTACT,low,,,,
+It's been 10 days and no refund yet. Many thanks.,REFUND,high,REFUND,high,,,,
+Please cancel order #1234 before it ships. Looking forward to hearing back.,CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+why can't i create my account? it sasy invalid input.,ACCOUNT,low,ACCOUNT,low,,,,
+"hello, i keep getting 'username already taken' but i'm new",ACCOUNT,low,ACCOUNT,low,,,,
+"hey there, i want to switch to a different account",ACCOUNT,low,ACCOUNT,low,,,,
+Why can't I create my account? It says invalid input.,ACCOUNT,low,ACCOUNT,low,ACCOUNT,low,Matched pattern indicating account with low urgency.,0.88
+"hello, do you offer money-back guarantees?",REFUND,high,REFUND,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Good how do I add a new shipping address to my account?,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+I'd like to edit my personal details. Please assist.,ACCOUNT,low,ACCOUNT,low,,,,
+"hi, i want to create a new account on your platform",ACCOUNT,low,ACCOUNT,low,ACCOUNT,low,Matched pattern indicating account with low urgency.,0.88
+Where do I post a product review?,FEEDBACK,low,FEEDBACK,low,FEEDBACK,low,Matched pattern indicating feedback with low urgency.,0.88
+Could you help - I'd like to download an invoice,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+"Hi, when will my refund be",REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+What's the typical delivery time to my country?,DELIVERY,medium,DELIVERY,medium,DELIVERY,medium,Matched pattern indicating delivery with medium urgency.,0.88
+I need to talk to someone about my order. I'd appreciate a quick reply.,CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+can you show me invoice number 8842?,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+"hi team, i need to use a different user profile",ACCOUNT,low,ACCOUNT,low,,,,
+quick question - when will my refund be processed?,REFUND,high,REFUND,high,,,,
+Where do I post a product review? Cheers.,FEEDBACK,low,FEEDBACK,low,,,,
+I have a question: I need my account deleted right away,ACCOUNT,high,ACCOUNT,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+what's the typical delivery time to my country?,DELIVERY,medium,DELIVERY,medium,DELIVERY,medium,Matched pattern indicating delivery with medium urgency.,0.88
+"i'm having trouble paying, the page errors out",PAYMENT,high,PAYMENT,high,,,,
+How do I order this product? Many thanks.,ORDER,medium,ORDER,medium,,,,
+The signup form keeps rejecting my email. Cheers.,ACCOUNT,low,ACCOUNT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Good morning, I'd like to place a new order",ORDER,medium,ORDER,medium,,,,
+I want to create a new account on your platform,ACCOUNT,low,ACCOUNT,low,,,,
+"Good morning, my payment was declined but my card is fine",PAYMENT,high,PAYMENT,high,,,,
+Can you help me open a customer account? This is urgent.,ACCOUNT,low,ACCOUNT,low,,,,
+I'd like to receiev your weekly emails. This is urgent.,NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+pelase cancel order #1234 before it ships. thanks in advance.,CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+"Hello, sign me up for promotional emails",NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+Where can I view my past invoices? Thanks!,INVOICE,medium,INVOICE,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"hi, how do i edit the delivery address?",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+why can't i create my account? it says invalid input.,ACCOUNT,low,ACCOUNT,low,,,,
+it's been 10 days and no refund yet. this is urgent.,REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+estimated delivery for standard shipping?,DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"good morning, i need a human agent right now",CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+Tracking number says delivered but I never got it. Cheers.,ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+How do I log into a secondary account?,ACCOUNT,low,ACCOUNT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Can I choose same-day shipping? This is urgent.,DELIVERY,medium,DELIVERY,medium,,,,
+Where can I view my past invoices? Cheers.,INVOICE,medium,INVOICE,medium,,,,
+quick question - i'd like to download an invoice,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+"I want to speak with a human agent, not a bot",CONTACT,low,CONTACT,low,,,,
+"Exucse me, which payment methods do you accept?",PAYMENT,medium,PAYMENT,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"good morning, my payment was declined but my card is fine",PAYMENT,high,PAYMENT,high,PAYMENT,high,Matched pattern indicating payment with high urgency.,0.88
+I have a question: I'm trying to find a copy my invoice,INVOICE,medium,INVOICE,medium,,,,
+"Hi, I want to lodge a complaint aobut the rceent experience",FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+where can i view my past invoices? tahnks in advance.,INVOICE,medium,INVOICE,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+I'd like to share my feedback on a purchase,FEEDBACK,low,FEEDBACK,low,,,,
+Could you help - how do I subscribe to your newsletter?,NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+i'd like to edit my personal details. this is urgent.,ACCOUNT,low,ACCOUNT,low,,,,
+"hi, do you offer money-back guarantees?",REFUND,high,REFUND,high,,,,
+"good morning, i want to get a refund for my purchase",REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+"Could you help - cancel my order asap, I ordered the wrong item",CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+I'd like to edit my personal details. Thanks in advance.,ACCOUNT,low,ACCOUNT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+How do I log into a secondary account?,ACCOUNT,low,ACCOUNT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+what are my payment options at checkout?,PAYMENT,medium,PAYMENT,medium,,,,
+"Hello, sign me up for promotional emails",NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+I need to talk to someone about my order. Thanks in advance.,CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+could you help - how do i add a new shipping address to my account?,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,,,,
+I want to lodge a complaint about the recent experience,FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+"Hi, I'm trynig to find a copy of my invoice",INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+Wheer do I post a product review? Thanks in advance.,FEEDBACK,low,FEEDBACK,low,FEEDBACK,low,Matched pattern indicating feedback with low urgency.,0.88
+Quick question - what is your refund policy?,REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+Can you email me a PDF invoice for order #5500?,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+your support has been awful and i'm furious about it,FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+The signup form keeps rejecting my email. Looking forward to hearing back.,ACCOUNT,low,ACCOUNT,low,,,,
+Please remove my account from your system. I'd appreciate a quick reply.,ACCOUNT,high,ACCOUNT,high,,,,
+I need to look up an old invoice,INVOICE,medium,INVOICE,medium,,,,
+How many days do I haev to return an item? Thanks!,REFUND,high,REFUND,high,,,,
+Quick question - the password reset email never arrived,ACCOUNT,high,ACCOUNT,high,,,,
+I have a question: I need to update the email on my profile,ACCOUNT,low,ACCOUNT,low,,,,
+"hi team, i want to get a for my purchase",REFUND,high,REFUND,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hi team, I need to update the email on my profile",ACCOUNT,low,ACCOUNT,low,,,,
+"Please refund order #3300, the item arrived broken. Thanks!",REFUND,high,REFUND,high,,,,
+could you help - please send me the invoice for my recent order,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+"excuse me, i want to speak with a human agent, not a bot",CONTACT,low,CONTACT,low,,,,
+"Hey there, how can I leave a review for the product I bought?",FEEDBACK,low,FEEDBACK,low,,,,
+I'd like to edit my personal details. Looking forward to hearing back.,ACCOUNT,low,ACCOUNT,low,,,,
+Why can't I create my account? It says invalid input.,ACCOUNT,low,ACCOUNT,low,ACCOUNT,low,Matched pattern indicating account with low urgency.,0.88
+"Quick question - I want to speak with a human agent, not a bot",CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+quick question - what shipping methods are available?,DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+please change the size on my recent order before it ships,ORDER,medium,ORDER,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+Why can't I create my account? It says invalid input.,ACCOUNT,low,ACCOUNT,low,ACCOUNT,low,Matched pattern indicating account with low urgency.,0.88
+"Hi team, how do I add a new shipping address to my account?",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+"Hello, I'm still waiting for my refund, where is it?",REFUND,high,REFUND,high,,,,
+i have a question: how can i sign up for an account?,ACCOUNT,low,ACCOUNT,low,,,,
+what is your refund policy?,REFUND,high,REFUND,high,,,,
+can i have two accounts and switch between them? i'd appreciate a qucik reply.,ACCOUNT,low,ACCOUNT,low,,,,
+I'd like to receive your weekly emails. I'd appreciate a quick reply.,NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+can i add another item to odrer #4422?,ORDER,medium,ORDER,medium,,,,
+How do I close my account? I no longer want to use the service.,ACCOUNT,high,ACCOUNT,high,,,,
+Quick question - how do I add a new shipping address to my account?,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+I have a questio:n can you help me modify my account settings?,ACCOUNT,low,ACCOUNT,low,,,,
+"Good morning, can you help me my account settings?",ACCOUNT,low,ACCOUNT,low,,,,
+I have a question: what shipping methods are available?,DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hi team, what shipping methods are available?",DELIVERY,medium,DELIVERY,medium,,,,
+quick question - i want to create a new accoutn on your platform,ACCOUNT,low,ACCOUNT,low,,,,
+Can I add another item to order #4422? Thanks!,ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Could you help - where is my order? It hasn't arrived yet,ORDER,medium,ORDER,medium,,,,
+"Hello, I forgot my password and can't log in",ACCOUNT,high,ACCOUNT,high,,,,
+Can you tlel me the status of order #9001?,ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Excuse me, how do I edit the delivery address?",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,,,,
+"hello, i'm getting an error when trying to register",ACCOUNT,low,ACCOUNT,low,,,,
+"hi, i need to change the shipping address on my ordre",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+Can I get a full refund if I'm not satisfied?,REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+your support has been awful and i'm furious about it,FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+Can I pay with PayPal? Is bank transfer an option?,PAYMENT,medium,PAYMENT,medium,PAYMENT,low,Matched pattern indicating payment with low urgency.,0.88
+could you help - i need to change the shipping address on my order,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,,,,
+"Good morning, my payment was declined but my cadr is fine",PAYMENT,high,PAYMENT,high,,,,
+Quick question - how do I contact your support,CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+I'd like to share my feedback on a recent purchase,FEEDBACK,low,FEEDBACK,low,FEEDBACK,low,Matched pattern indicating feedback with low urgency.,0.88
+"Hi, which payment methods do you accept?",PAYMENT,medium,PAYMENT,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hey ther,e I want to update the quantity in my order",ORDER,medium,ORDER,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+can you check on the status my refund?,REFUND,high,REFUND,high,,,,
+I have a questio:n I want to get a refund for my purchase,REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+"Hello, which payment methods do you accept?",PAYMENT,medium,PAYMENT,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hello, what are my payment options at checkout?",PAYMENT,medium,PAYMENT,medium,,,,
+"good morning, how do i add a new shipping address to my account?",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+when can i expect my package? many thakns.,DELIVERY,medium,DELIVERY,medium,,,,
+"Hi team, what is your refund policy?",REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+"hi, i need to use a different user profile",ACCOUNT,low,ACCOUNT,low,,,,
+can you tell me the status of order #9001?,ORDER,medium,ORDER,medium,,,,
+Quick question - I'd like to place a new order,ORDER,medium,ORDER,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+Can you help me open a customer account? Cheers.,ACCOUNT,low,ACCOUNT,low,,,,
+i have a question: how do i contact your support team?,CONTACT,low,CONTACT,low,,,,
+please change the size on my recent order before it ships,ORDER,medium,ORDER,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+"Hello, I want to delete my account permanently",ACCOUNT,high,ACCOUNT,high,,,,
+"Hey there, I keep getting 'username already taken' but I'm new",ACCOUNT,low,ACCOUNT,low,,,,
+i want to save a second address for deliveries,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+tracking number says delivered but i never got it. please assist.,ORDER,medium,ORDER,medium,,,,
+Could you help - how do I subscribe to your newsletter?,NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+could you help - i want to create a new account on your platform,ACCOUNT,low,ACCOUNT,low,,,,
+"hi team, when will my refund be processed?",REFUND,high,REFUND,high,,,,
+can you show me invoice number 8842?,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+Quick question - I want to switch to a different account,ACCOUNT,low,ACCOUNT,low,,,,
+"Hi team, what is your refund policy?",REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+how long will my order take to arrive?,DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Plesae remove my accuont frmo your system. Thanks!,ACCOUNT,high,ACCOUNT,high,,,,
+"Hi team, the password reset email never arrived",ACCOUNT,high,ACCOUNT,high,,,,
+my payment was declined but my card is fine,PAYMENT,high,PAYMENT,high,,,,
+i want to save a second address for deliveries,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Can I add another item to order #4422? Thanks!,ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Help, the payment failed but money was deducted!",PAYMENT,high,PAYMENT,high,PAYMENT,high,Matched pattern indicating payment with high urgency.,0.88
+"i changed my mind, can i cancel my recent purchase?",CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+Can you show me inovice number 8842?,INVOICE,medium,INVOICE,medium,,,,
+"I'm ready to buy, what's next?",ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"please refund order #3300, the item arrived brokne. looking forward to hearing bac.k",REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+why can't i create my account? it says invalid input.,ACCOUNT,low,ACCOUNT,low,,,,
+"Hello, the password reest email never arrived",ACCOUNT,high,ACCOUNT,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Can I unsubscribe from the newsletter please?,NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+how many days do i have to rteurn an item?,REFUND,high,REFUND,high,,,,
+"hey there, when will my reufnd be processed?",REFUND,high,REFUND,high,,,,
+i need an invoice for accounting. thanks!,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+Can you help me open a csutomer account? Looking forward to hearing back.,ACCOUNT,low,ACCOUNT,low,,,,
+I need to talk to someone about my order. Looking forward to hearing back.,CONTACT,low,CONTACT,low,,,,
+i have a question: i want to create a new account on your platform,ACCOUNT,low,ACCOUNT,low,,,,
+"I have a question: I watn to speak with a human agent, not a bot",CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+"Hello, I'd like to download an invoice",INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+"Hi tema, you help me complete my purchase?",ORDER,medium,ORDER,medium,,,,
+Do you tkae Apple Pay or only credit cards? Please assist.,PAYMENT,medium,PAYMENT,medium,PAYMENT,low,Matched pattern indicating payment with low urgency.,0.88
+Can a live representative help me? The chatbot isn't enough.,CONTACT,low,CONTACT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Can you reroute my package to a new address?,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,,,,
+How do I log into a secondary account?,ACCOUNT,low,ACCOUNT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"hey there, i need to use a different user profile",ACCOUNT,low,ACCOUNT,low,,,,
+it's been 10 days and no refund yet.,REFUND,high,REFUND,high,,,,
+"Good morning, can you hlep me modify my account settings?",ACCOUNT,low,ACCOUNT,low,,,,
+can you check on the status of my refun?d,REFUND,high,REFUND,high,,,,
+"good morning, what are my delivery options for this order?",DELIVERY,medium,DELIVERY,medium,DELIVERY,medium,Matched pattern indicating delivery with medium urgency.,0.88
+i was charged twice for the same order! this is urgent.,PAYMENT,high,PAYMENT,high,,,,
+how many days do i have to return an item?,REFUND,high,REFUND,high,,,,
+Tracking number syas delivered but I never got it. Please assist.,ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+how many days do i have to return an item? this is urgent.,REFUND,high,REFUND,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Good morning, do you offer money-back guarantees?",REFUND,high,REFUND,high,,,,
+Can I add another item to order #4422? This is urgent.,ORDER,medium,ORDER,medium,,,,
+how do i close my account? i no longer wnat to the service.,ACCOUNT,high,ACCOUNT,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+please connect me to a real person. looking forward to hearing back.,CONTACT,low,CONTACT,low,,,,
+"hi team, i want to lodge a complaint about the recent experience",FEEDBACK,high,FEEDBACK,high,,,,
+Please remove my account from your system. Looking forward to hearing back.,ACCOUNT,high,ACCOUNT,high,,,,
+"Hi, how do I request a refund?",REFUND,high,REFUND,high,,,,
+Where can I view my past invoices? Thanks in advance.,INVOICE,medium,INVOICE,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hey tehre, what are my delivery options for this order?",DELIVERY,medium,DELIVERY,medium,,,,
+"Hi team, what is your refund policy?",REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+"Good morning, what are my delivery options for this order?",DELIVERY,medium,DELIVERY,medium,DELIVERY,medium,Matched pattern indicating delivery with medium urgency.,0.88
+"Wrong address on my order, plaese update it! Many thanks.",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hi, whta shipping metohds are available?",DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hello, I need to cancel my order immediately",CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+please cancel order #1234 before it ships.,CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+I'd like to share my feedback on a recent purchase,FEEDBACK,low,FEEDBACK,low,FEEDBACK,low,Matched pattern indicating feedback with low urgency.,0.88
+"hi team, i need to modify my existing order",ORDER,medium,ORDER,medium,,,,
+can you reroute package to a new address?,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+How do I log into a secondary account?,ACCOUNT,low,ACCOUNT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"hey there, whta are my delivery options for this order?",DELIVERY,medium,DELIVERY,medium,DELIVERY,medium,Matched pattern indicating delivery with medium urgency.,0.88
+"Hi tea,m I'm sitll waiting for my refund, where is it?",REFUND,high,REFUND,high,,,,
+What is your customer service phone number?,CONTACT,low,CONTACT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Do you offer express delivery? I'm in a hurry.,DELIVERY,medium,DELIVERY,medium,DELIVERY,medium,Matched pattern indicating delivery with medium urgency.,0.88
+I need to talk to someone about my order. Cheesr.,CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+"good morning, how can i sign up for an account?",ACCOUNT,low,ACCOUNT,low,,,,
+I was charged twice for the same order! Many thanks.,PAYMENT,high,PAYMENT,high,PAYMENT,high,Matched pattern indicating payment with high urgency.,0.88
+I need to change the shipping address on my order,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+can i pay with paypal? is bank transfer an option?,PAYMENT,medium,PAYMENT,medium,PAYMENT,low,Matched pattern indicating payment with low urgency.,0.88
+Quick question - I want to lodge a complaint about the recent experience,FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+i a question: i need to look up an old invoice,INVOICE,medium,INVOICE,medium,,,,
+I have a question: I need to use a different user profile,ACCOUNT,low,ACCOUNT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+do you take apple pay or only credit cards? this is urgent.,PAYMENT,medium,PAYMENT,medium,PAYMENT,low,Matched pattern indicating payment with low urgency.,0.88
+I'd like to receive your weekly Thanks in advance.,NEWSLETTER,low,NEWSLETTER,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Quick question - I'm having troulbe paying, the page errors out",PAYMENT,high,PAYMENT,high,,,,
+"I changed my mind, can I cancel my recent purchase?",CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+I have a question: I want to delete my account permanently,ACCOUNT,high,ACCOUNT,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+i have a question: please send me the invoice for my recent order,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+"excuse me, how do i request a",REFUND,high,REFUND,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Can I choose same-day shipping?,DELIVERY,medium,DELIVERY,medium,DELIVERY,medium,Matched pattern indicating delivery with medium urgency.,0.88
+"Good morning, I need a human agent right now",CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+"Hello, I forgot my password and cant' log in",ACCOUNT,high,ACCOUNT,high,,,,
+quick question - how do i contact your support team?,CONTACT,low,CONTACT,low,,,,
+how do I subscribe to your newsletter?,NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+Quick question - I want to update the quantity in my order,ORDER,medium,ORDER,medium,,,,
+How do I order thsi product? Thanks!,ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Quick question - how do I request a refund?,REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+How do I log into a secondary account?,ACCOUNT,low,ACCOUNT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+could you help - keep getting 'username already taken' but i'm new,ACCOUNT,low,ACCOUNT,low,,,,
+"hey there, how do i track my shipment?",ORDER,medium,ORDER,medium,,,,
+please cancel order #1234 before it ships. i'd appreciate a quick reply.,CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+Can I set up multiple addresses on my profile? Looking forward to hearing back.,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Quick question - I'm having troubel paying, the page errors out",PAYMENT,high,PAYMENT,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+why can't i create my account? it says invalid input.,ACCOUNT,low,ACCOUNT,low,,,,
+"hey there, i need my account deleted right away",ACCOUNT,high,ACCOUNT,high,,,,
+how many dyas do i have to return an item?,REFUND,high,REFUND,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+what shipping methods are available?,DELIVERY,medium,DELIVERY,medium,,,,
+Can I pay with PayPal? Is bank transfre an option?,PAYMENT,medium,PAYMENT,medium,,,,
+do you take apple pay or only credit cards? looking forward to hearing back.,PAYMENT,medium,PAYMENT,medium,,,,
+Please connect me to a real person.,CONTACT,low,CONTACT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hello, how can I sign up for an account?",ACCOUNT,low,ACCOUNT,low,,,,
+What's the typical delivery time to my,DELIVERY,medium,DELIVERY,medium,,,,
+"Good morning, I'm extremely unhappy with the service",FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+when can i expect my package? cheers.,DELIVERY,medium,DELIVERY,medium,,,,
+i'd like to receive your weekly emails. this is urgent.,NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+"i'd like to register, what's the process? this is urgent.",ACCOUNT,low,ACCOUNT,low,,,,
+Why can't I create my account? It says invalid ipnut.,ACCOUNT,low,ACCOUNT,low,ACCOUNT,low,Matched pattern indicating account with low urgency.,0.88
+quick question - what shipipng methods are available?,DELIVERY,medium,DELIVERY,medium,,,,
+"Wrong address on my order, please it! Thanks!",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hello, the password reset never arrived",ACCOUNT,high,ACCOUNT,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+could you help - how do contact your support team?,CONTACT,low,CONTACT,low,,,,
+"I changed my mind, can I cancel my recent purchase?",CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+"Hello, I want to get a refund for my purchase",REFUND,high,REFUND,high,,,,
+Your support has been awful and I'm furious about it,FEEDBACK,high,FEEDBACK,high,,,,
+your support has been and i'm furious about it,FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+can i pay with paypal? is bank transfer an option?,PAYMENT,medium,PAYMENT,medium,PAYMENT,low,Matched pattern indicating payment with low urgency.,0.88
+can you help me open a custmoer account? cheers.,ACCOUNT,low,ACCOUNT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"hello, i'm extremely unhappy with the service",FEEDBACK,high,FEEDBACK,high,,,,
+Why can't I create my account? It says invalid input.,ACCOUNT,low,ACCOUNT,low,ACCOUNT,low,Matched pattern indicating account with low urgency.,0.88
+when will my refund be processed?,REFUND,high,REFUND,high,,,,
+can you tell me the status of oredr #9001?,ORDER,medium,ORDER,medium,,,,
+"help, the payment failed but money was deducted!",PAYMENT,high,PAYMENT,high,PAYMENT,high,Matched pattern indicating payment with high urgency.,0.88
+"Hi team, I'm having trouble paying, the page errors out",PAYMENT,high,PAYMENT,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Can I set up multiple addresses on my profile?,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hi, I need to cancel my order immediately",CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+"Hi tema, I want to deltee my account permanently",ACCOUNT,high,ACCOUNT,high,,,,
+how many days do i have to return an item? many thanks.,REFUND,high,REFUND,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+I have a question: adding new address beofre my next order,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,,,,
+When can I expect my package?,DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+question - how do I track my shipment?,ORDER,medium,ORDER,medium,,,,
+can i set up multiple addresses on my profile?,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"hello, i want to speka with a human not a bot",CONTACT,low,CONTACT,low,,,,
+How do I close my account? I no longer want to use the,ACCOUNT,high,ACCOUNT,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Can you reroute my package to a new address?,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,,,,
+Quikc question - can you help me complete my purchase?,ORDER,medium,ORDER,medium,,,,
+Tracking number says delivered but I never got it.,ORDER,medium,ORDER,medium,,,,
+"good morning, i want to delete my account permanently",ACCOUNT,high,ACCOUNT,high,,,,
+i want to save a second address for delivereis,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,,,,
+"Hey there, I need to modify my existing order",ORDER,medium,ORDER,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+What's the typical delivery time to my country?,DELIVERY,medium,DELIVERY,medium,DELIVERY,medium,Matched pattern indicating delivery with medium urgency.,0.88
+Could you help - I need to update the email on my profile,ACCOUNT,low,ACCOUNT,low,,,,
+Can I add another item to order #4422? I'd appreciate a quick reply.,ORDER,medium,ORDER,medium,,,,
+quick question - sgin me up for promotional emails,NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+"Good morning, how do I add a new shipping address to my account?",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,,,,
+"Help, the payment failed but money was deducted!",PAYMENT,high,PAYMENT,high,PAYMENT,high,Matched pattern indicating payment with high urgency.,0.88
+please connect me to a real person. this is urgent.,CONTACT,low,CONTACT,low,,,,
+"Hi, where my order? It hasn't arrived yet",ORDER,medium,ORDER,medium,,,,
+I'd like to donwload an invoice,INVOICE,medium,INVOICE,medium,,,,
+where do i post a product review? this is urgent.,FEEDBACK,low,FEEDBACK,low,,,,
+"Hel,p the payment failed but money was deducted!",PAYMENT,high,PAYMENT,high,PAYMENT,high,Matched pattern indicating payment with high urgency.,0.88
+Quick question - what shipping methods are,DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+It's been 10 days and no refund yet.,REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+the password reset email never arrived,ACCOUNT,high,ACCOUNT,high,,,,
+can you reroute my package to a new address?,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+"Hey there, I need to update the email on my profile",ACCOUNT,low,ACCOUNT,low,ACCOUNT,low,Matched pattern indicating account with low urgency.,0.88
+"hi team, how can i sign up for an account?",ACCOUNT,low,ACCOUNT,low,,,,
+when can i expect my pakcage? thanks in advance.,DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+I was charged twice for the same order! Cheers.,PAYMENT,high,PAYMENT,high,PAYMENT,high,Matched pattern indicating payment with high urgency.,0.88
+I'd like to edit my personal details. Thanks!,ACCOUNT,low,ACCOUNT,low,,,,
+I have a question: I'd like to place a new order,ORDER,medium,ORDER,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+can you help me modify my acconut settings?,ACCOUNT,low,ACCOUNT,low,,,,
+When can I expect my package?,DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Can I add another item to order #4422? Many thanks.,ORDER,medium,ORDER,medium,,,,
+"hello, my payment was declined but my card is fien",PAYMENT,high,PAYMENT,high,,,,
+I'd like to share my feedback on a recent purchase,FEEDBACK,low,FEEDBACK,low,FEEDBACK,low,Matched pattern indicating feedback with low urgency.,0.88
+How can I change account information?,ACCOUNT,low,ACCOUNT,low,,,,
+Your support has been awful and I'm furious about it,FEEDBACK,high,FEEDBACK,high,,,,
+i have a question: do you offer mnoey-back guarantees?,REFUND,high,REFUND,high,,,,
+"Hello, I'd like to place a new order",ORDER,medium,ORDER,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+How do I order this product? Cheers.,ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"hey there, what are my payment options at checkout?",PAYMENT,medium,PAYMENT,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hi team, I'm trying to find a copy of invoice",INVOICE,medium,INVOICE,medium,,,,
+"hello, estimated delivery for standard shipping?",DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"excuse me, how can i sign up for an account?",ACCOUNT,low,ACCOUNT,low,ACCOUNT,low,Matched pattern indicating account with low urgency.,0.88
+"Hello, I'm extremely unhappy with the service",FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+"Hi, is there a support email I can us?e",CONTACT,low,CONTACT,low,,,,
+I'd like to receive your weekly emails. Tahnks!,NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+I'd like to edit my personal details.,ACCOUNT,low,ACCOUNT,low,,,,
+Can you help me open a customer account? Many thanks.,ACCOUNT,low,ACCOUNT,low,,,,
+your support has been awful and i'm furious about it,FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+i have a question: how do i rqeuest a refund?,REFUND,high,REFUND,high,,,,
+"i'm ready to buy, what's next?",ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+how do I edit the delivery address?,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+"Hi team, I want to create a new account on your platform",ACCOUNT,low,ACCOUNT,low,,,,
+"Hi, can you help me complete my purchase?",ORDER,medium,ORDER,medium,,,,
+how do i close my account? i no longer want to use the service.,ACCOUNT,high,ACCOUNT,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Please chagne the size on my recent order before it ships,ORDER,medium,ORDER,medium,,,,
+"Hey there, I want to lodge a complaint abuot the recent experience",FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+"Hi team, I need a human agent right now",CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+"hi, how do i edit the delivery address?",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+I want to lodge a complaint about the rceent experience,FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+can you help me complete my pucrhase?,ORDER,medium,ORDER,medium,,,,
+"hi team, how can i sign up for an account?",ACCOUNT,low,ACCOUNT,low,,,,
+"hello, i need to update the email on my profile",ACCOUNT,low,ACCOUNT,low,,,,
+"excuse me, i want to delete my account permanently",ACCOUNT,high,ACCOUNT,high,,,,
+Can I unsubscribe from the newsletter please?,NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+"Excuse me, I need to look up an old invoice",INVOICE,medium,INVOICE,medium,,,,
+how many days do i have to return an item?,REFUND,high,REFUND,high,,,,
+can i unsubscribe from the newsletter please?,NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+"Excuse me, what shipping methods are available?",DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Good morning, how do I track my shipment?",ORDER,medium,ORDER,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+I'd liek to download an invoice,INVOICE,medium,INVOICE,medium,,,,
+what's the typical delivery time to my country?,DELIVERY,medium,DELIVERY,medium,DELIVERY,medium,Matched pattern indicating delivery with medium urgency.,0.88
+"Help, the payment failed but money was deducted!",PAYMENT,high,PAYMENT,high,PAYMENT,high,Matched pattern indicating payment with high urgency.,0.88
+I have a question: the password reset email never arrived,ACCOUNT,high,ACCOUNT,high,,,,
+"Hey there, what are my delivery options for this order?",DELIVERY,medium,DELIVERY,medium,DELIVERY,medium,Matched pattern indicating delivery with medium urgency.,0.88
+When can I expect my package? I'd appreciate a quick reply.,DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+can i pay with paypal? is bank transfer an option?,PAYMENT,medium,PAYMENT,medium,PAYMENT,low,Matched pattern indicating payment with low urgency.,0.88
+I need my money bakc for this defective product!,REFUND,high,REFUND,high,,,,
+"Hi team, I want to get a refund for my purchaes",REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+I want to create a new account on your platform,ACCOUNT,low,ACCOUNT,low,,,,
+I'd lkie to edit my personal details. Thanks in advance.,ACCOUNT,low,ACCOUNT,low,,,,
+Plesae cancel order #1234 before it ships. Thanks!,CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+Your support has been awful and I'm about it,FEEDBACK,high,FEEDBACK,high,,,,
+I need to talk to someone about my orde.r Thanks in advance.,CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+Quick question - how can I leave a review for the product I bought?,FEEDBACK,low,FEEDBACK,low,FEEDBACK,low,Matched pattern indicating feedback with low urgency.,0.88
+How mayn days do have to return an item?,REFUND,high,REFUND,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Could you help - what is your refund,REFUND,high,REFUND,high,,,,
+Can I add another item to ordre #4422? Cheers.,ORDER,medium,ORDER,medium,,,,
+Could you help - I want to update the quantity in my order,ORDER,medium,ORDER,medium,,,,
+Can you help me open a customer account? Thanks!,ACCOUNT,low,ACCOUNT,low,,,,
+How can I change my account information?,ACCOUNT,low,ACCOUNT,low,,,,
+Your support has been awful and I'm furious it,FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+"Hi, I want to switch to a different account",ACCOUNT,low,ACCOUNT,low,,,,
+Please remove my account from your system. I'd appreciate a quick reply.,ACCOUNT,high,ACCOUNT,high,,,,
+"Excuse me, what shipping methods are available?",DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Where can I view my past invoices? I'd appreciate a quick reply.,INVOICE,medium,INVOICE,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Good morning, when will my refund be processed?",REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+Please connect me to a real person. Looking forward to hearing back.,CONTACT,low,CONTACT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+quick question - is there a support email i can use?,CONTACT,low,CONTACT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Can I pay with PayPal? Is bank transfer an option?,PAYMENT,medium,PAYMENT,medium,PAYMENT,low,Matched pattern indicating payment with low urgency.,0.88
+Can you emali me a PDF invoice for order #5500?,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+how many days do i have to return an item? many thanks.,REFUND,high,REFUND,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+I need my money back for this defective product!,REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+The signup form keeps rejecting my email. Looking forward to hearing back.,ACCOUNT,low,ACCOUNT,low,,,,
+Can help me open a customer account? This is urgent.,ACCOUNT,low,ACCOUNT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Excuse me, I want to update the quantity in my order",ORDER,medium,ORDER,medium,,,,
+"hey there, i want to create a new account on your platform",ACCOUNT,low,ACCOUNT,low,,,,
+i watn to save a second address for deliveries,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+I need to talk to someone about my order. Thanks in avdance.,CONTACT,low,CONTACT,low,,,,
+could you help - i forgot my psasword and can't log in,ACCOUNT,high,ACCOUNT,high,,,,
+"This is unacceptable, I want to file a formal complaint! Thanks!",FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+Do you take Apple Pay or only credit cards?,PAYMENT,medium,PAYMENT,medium,PAYMENT,low,Matched pattern indicating payment with low urgency.,0.88
+When can I expect my package? Thanks in advance.,DELIVERY,medium,DELIVERY,medium,,,,
+I need to cancel my order immediately,CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+"Hello, how do I request a refund?",REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+I have a question: I'm extremely unhappy with the service,FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+"Wrong address on my order, pelase update it! Thanks in",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+i have a question: where is my order? it hasn't arrived yet,ORDER,medium,ORDER,medium,,,,
+"Good morning, how do I contact your support team?",CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+"Hi, sign me up for promotional emails",NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+I need to tlak to someone about my order. This urgent.,CONTACT,low,CONTACT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Could you help - how do I add a new shipping address to my account?,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,,,,
+Could you help - how do I your support team?,CONTACT,low,CONTACT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hey there, I forgot my password and can't log in",ACCOUNT,high,ACCOUNT,high,ACCOUNT,high,Matched pattern indicating account with high urgency.,0.88
+"I changed my mind, can I cancel my recetn purchase?",CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+How do I close my account? I no longer want to use the service.,ACCOUNT,high,ACCOUNT,high,,,,
+"Locked out of my account, password recovery isn't working!",ACCOUNT,high,ACCOUNT,high,,,,
+The signup form keeps rejecting my email. Please assist.,ACCOUNT,low,ACCOUNT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hey there, wehre is my order? It hasn't arrived yet",ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Can I get a full refund if I'm not satisfied?,REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+how do i order this product? please assist.,ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+I need my money back for this defective product!,REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+"Hello, adding a new address before my next order",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+"Hi, I want to get a refund for my purchase",REFUND,high,REFUND,high,,,,
+How do I log into a secondary acconut?,ACCOUNT,low,ACCOUNT,low,,,,
+"good morning, i want to delete my account permanently",ACCOUNT,high,ACCOUNT,high,,,,
+"Hey there, how do I subscribe to your newsletter?",NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+Can a live representative help me? The chatbot isn't enough.,CONTACT,low,CONTACT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+I was charged twice for the same order!,PAYMENT,high,PAYMENT,high,,,,
+i keep getting 'username already taken' but i'm new,ACCOUNT,low,ACCOUNT,low,,,,
+"Locked out of my account, passwodr recovery isn't working!",ACCOUNT,high,ACCOUNT,high,,,,
+Can you rerouet my package to a new address?,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+"Hi, what shipping methods are available?",DELIVERY,medium,DELIVERY,medium,,,,
+Tracking number says deliveerd but I never got it. This is urgent.,ORDER,medium,ORDER,medium,,,,
+Can you tell me the status of order #9001?,ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hello, I'm trying to find a copy of my invoice",INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+"hi, i want to create a new account on your platform",ACCOUNT,low,ACCOUNT,low,ACCOUNT,low,Matched pattern indicating account with low urgency.,0.88
+"Hi, I nede to change the shipping address on my order",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+How do I log into a account?,ACCOUNT,low,ACCOUNT,low,,,,
+I need my money back for this defective product!,REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+I was charged twice for the order! Looking forward to hearing back.,PAYMENT,high,PAYMENT,high,,,,
+How do I order this product? Thanks in advance.,ORDER,medium,ORDER,medium,,,,
+"Good morning, how do I track my shipment?",ORDER,medium,ORDER,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+Quick question - adding a new address before my next order,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+"hey there, what shipping methods are available?",DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hey there, I forgot my password and can't log in",ACCOUNT,high,ACCOUNT,high,ACCOUNT,high,Matched pattern indicating account with high urgency.,0.88
+"hi, i need to update the email on my profile",ACCOUNT,low,ACCOUNT,low,,,,
+"Hello, what shipping methods are available?",DELIVERY,medium,DELIVERY,medium,,,,
+where can i view my past invoices?,INVOICE,medium,INVOICE,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+How do I order this product? Looking forward to haering back.,ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+I'd like to share my feedback on a recent purchase,FEEDBACK,low,FEEDBACK,low,FEEDBACK,low,Matched pattern indicating feedback with low urgency.,0.88
+How do I close my account? I no longre want to use the service.,ACCOUNT,high,ACCOUNT,high,,,,
+tracking numebr says delivered but i never got it. this is,ORDER,medium,ORDER,medium,,,,
+quick question - i need to look up an old invoice,INVOICE,medium,INVOICE,medium,,,,
+I want to save a seocnd address for deliveries,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+It's been 10 days and no refund yet. Thnaks!,REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+"Hi team, I forgot my password and can't log in",ACCOUNT,high,ACCOUNT,high,ACCOUNT,high,Matched pattern indicating account with high urgency.,0.88
+I'd like to share my feedback on a recent purchase,FEEDBACK,low,FEEDBACK,low,FEEDBACK,low,Matched pattern indicating feedback with low urgency.,0.88
+"Hello, I need a human agent right now",CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+"hi, what are my delivery options for this order?",DELIVERY,medium,DELIVERY,medium,DELIVERY,medium,Matched pattern indicating delivery with medium urgency.,0.88
+"i'm ready to buy, what's next?",ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Godo morning, do you offer money-back guarantees?",REFUND,high,REFUND,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+do you take apple pay or only credit cards? thanks!,PAYMENT,medium,PAYMENT,medium,,,,
+What is your customer service phone number?,CONTACT,low,CONTACT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"I'm ready to buy, what's next?",ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"I'd like to register, what's the process? Cheers.",ACCOUNT,low,ACCOUNT,low,,,,
+Can I have two accounts and switch between them? Please assist.,ACCOUNT,low,ACCOUNT,low,,,,
+"hi team, i'm extremely unhappy with the service",FEEDBACK,high,FEEDBACK,high,,,,
+Can you show me invoice number 8842?,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+Where do I post a product review?,FEEDBACK,low,FEEDBACK,low,FEEDBACK,low,Matched pattern indicating feedback with low urgency.,0.88
+"Wrong address on my order, please update it! Thanks!",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,,,,
+Could you help - I'd like to download an invoice,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+how do i close my account? i no longer want to use the service.,ACCOUNT,high,ACCOUNT,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Can you show invoice number 8842?,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+quick question - which payment methods do you accept?,PAYMENT,medium,PAYMENT,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+could you help - sgin me up for promotional emails,NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+Can I choose same-day shipping?,DELIVERY,medium,DELIVERY,medium,DELIVERY,medium,Matched pattern indicating delivery with medium urgency.,0.88
+Could you help - which payment methods do you accept?,PAYMENT,medium,PAYMENT,medium,,,,
+can you email me a pdf invoice for order #5500?,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+Can I unsubscribe frmo the newsletter please?,NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+"hi team, do you offer money-back guarantees?",REFUND,high,REFUND,high,,,,
+I have a question: I want to delete my account permanently,ACCOUNT,high,ACCOUNT,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Can I choose same-day shipping? Thanks!,DELIVERY,medium,DELIVERY,medium,,,,
+Quick question - how can I sign up for an account?,ACCOUNT,low,ACCOUNT,low,,,,
+Do you take Apple Pay or only credit cards? Looking forward to hearing back.,PAYMENT,medium,PAYMENT,medium,PAYMENT,low,Matched pattern indicating payment with low urgency.,0.88
+Quick questino - I want to write a review of my experience,FEEDBACK,low,FEEDBACK,low,FEEDBACK,low,Matched pattern indicating feedback with low urgency.,0.88
+What is your customer service phone number?,CONTACT,low,CONTACT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+I want to update the quantity in my order,ORDER,medium,ORDER,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+How do I log into a secondray accuont?,ACCOUNT,low,ACCOUNT,low,,,,
+"I'd like to register, what's the process? Many thnaks.",ACCOUNT,low,ACCOUNT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Good morning, how do I edit the delivery address?",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,,,,
+"Excuse me, I want to create a new account on your platform",ACCOUNT,low,ACCOUNT,low,,,,
+"Hi, I need a human agnet right now",CONTACT,low,CONTACT,low,,,,
+Can you show me invoice number 8842?,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+"Hello, I need to use a different user profile",ACCOUNT,low,ACCOUNT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hello, I want to delete my account permanently",ACCOUNT,high,ACCOUNT,high,,,,
+Where can I view my past invoices?,INVOICE,medium,INVOICE,medium,,,,
+Can I get a full refund if I'm not satisfied?,REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+how do i order this prodcut? many thanks.,ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Quick question - how do I contact your support team?,CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+"Good morning, I'm still waiting for my refund, whree is it?",REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+"excuse me, i'm having trouble paying, the page errors out",PAYMENT,high,PAYMENT,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+When can I expect my package?,DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Quick question - what are my payment options at cehckout?,PAYMENT,medium,PAYMENT,medium,,,,
+estimated delivery for shippin?g,DELIVERY,medium,DELIVERY,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Good I'm getting an error when trying to register,ACCOUNT,low,ACCOUNT,low,,,,
+"Hey there, cancel my order asap, I ordered the wrong item",CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+I need to modify my existing,ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Tracking number says delivered but I never got it. Thanks in advance.,ORDER,medium,ORDER,medium,,,,
+I haev a question: addign a new address before my next order,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,,,,
+"Hello, I'd like to place a new order",ORDER,medium,ORDER,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+"Hi team, I want to delete my account permaenntly",ACCOUNT,high,ACCOUNT,high,,,,
+I have a question: how do I subscribe to your newsletter?,NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+"Hi team, I'm having trouble paying, the page errors out",PAYMENT,high,PAYMENT,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"I changed my mind, can I cancel my recent purchase?",CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+Can you chekc on the status of my refund?,REFUND,high,REFUND,high,,,,
+Could you help - how can I leave a review for the product I bought?,FEEDBACK,low,FEEDBACK,low,,,,
+"i changed my mind, can i cancel my recent purchase?",CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+"hey there, cancel my order asap, i ordered the wrong item",CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+Could you help - do you offer money-back guarantees?,REFUND,high,REFUND,high,,,,
+I have a question: I wnat to update the quantity in my order,ORDER,medium,ORDER,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+Can you email me a PDF invoice for order #5500?,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+Quick question - is there a support email I can use?,CONTACT,low,CONTACT,low,,,,
+"Hi team, the password reset email never arrived",ACCOUNT,high,ACCOUNT,high,,,,
+"Excuse me, how do I track my shipment?",ORDER,medium,ORDER,medium,,,,
+The singup form keeps rejecting my email. Looikng forward to hearing bac.k,ACCOUNT,low,ACCOUNT,low,,,,
+Can you tell me the status of order #9001?,ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hi, cancel my order asap, I ordered the wrong item",CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+I need invoice for accounting. Cheers.,INVOICE,medium,INVOICE,medium,,,,
+Can you email me a PDF invoice for order #5500?,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+Why can't I create my account? It says invalid input.,ACCOUNT,low,ACCOUNT,low,ACCOUNT,low,Matched pattern indicating account with low urgency.,0.88
+Could you help - I want to write a review of my experience,FEEDBACK,low,FEEDBACK,low,FEEDBACK,low,Matched pattern indicating feedback with low urgency.,0.88
+Could you help - I forgot my password and can't log in,ACCOUNT,high,ACCOUNT,high,,,,
+Could you help - I need to look up an old ivnoice,INVOICE,medium,INVOICE,medium,,,,
+"Hi, cancel my order asap, I ordered the wrong item",CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+"Could you help - I'm still wiating for my refund, whree is it?",REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+Can I get a full refnud if I'm not satisfied?,REFUND,high,REFUND,high,,,,
+"Hi, I'm extremely unhappy with the service",FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+I need to change the shipping address on my order,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+quick question - i want to create a new account on your pltaform,ACCOUNT,low,ACCOUNT,low,,,,
+i have a question: how do i add a new shipping address to my account?,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,,,,
+"i'm ready to buy, what's nxet?",ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Please change the size on my recent order before it ships,ORDER,medium,ORDER,medium,,,,
+can you reroute my package to a new address?,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+I have a question: how can I sign up for an account?,ACCOUNT,low,ACCOUNT,low,,,,
+Quick qeustion - I want to delete my account peramnently,ACCOUNT,high,ACCOUNT,high,,,,
+"Please refund order #3300, the item arrived broken. Cheers.",REFUND,high,REFUND,high,,,,
+how many days do i have to return an item? thanks!,REFUND,high,REFUND,high,,,,
+"Hi team, I need a human agent right now",CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+I'd liek to edit my personal details.,ACCOUNT,low,ACCOUNT,low,,,,
+Please chnage the size on my recent order before it ships,ORDER,medium,ORDER,medium,,,,
+"Hi, I want to get a refund for my purchase",REFUND,high,REFUND,high,,,,
+"Good morning, I'm tyring to find a copy of my invoice",INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+"Help, the payment failed but money was deducetd!",PAYMENT,high,PAYMENT,high,PAYMENT,high,Matched pattern indicating payment with high urgency.,0.88
+Please cancel order #1234 before it ships. Thanks!,CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+"hello, cancel my order asap, i ordered the wrong item",CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+Can you show ivnoice number 8842?,INVOICE,medium,INVOICE,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Can you check on the status of my refund?,REFUND,high,REFUND,high,,,,
+Could you help - I want to write a review of my experience,FEEDBACK,low,FEEDBACK,low,FEEDBACK,low,Matched pattern indicating feedback with low urgency.,0.88
+Can I unsubscribe from the newsletetr please?,NEWSLETTER,low,NEWSLETTER,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Help, the payment failed but money was deducted!",PAYMENT,high,PAYMENT,high,PAYMENT,high,Matched pattern indicating payment with high urgency.,0.88
+I need to talk to someone about my order.,CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+I need my money back for this defective product!,REFUND,high,REFUND,high,REFUND,high,Matched pattern indicating refund with high urgency.,0.88
+"Excuse me, estimated delivery for standard shipping?",DELIVERY,medium,DELIVERY,medium,,,,
+can i chooes same-day shipping? looking forward to hearing back.,DELIVERY,medium,DELIVERY,medium,DELIVERY,medium,Matched pattern indicating delivery with medium urgency.,0.88
+I haev a question: I need to modify my existing odrer,ORDER,medium,ORDER,medium,,,,
+"Hey there, how can I leave a review for the product I bought?",FEEDBACK,low,FEEDBACK,low,,,,
+how many days do i have to return an item? many thanks.,REFUND,high,REFUND,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+i'd lkie to receive your wekely emails. this is urgent.,NEWSLETTER,low,NEWSLETTER,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Can I unsubscribe from the newsletter please?,NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+Could you help - I'm extremely unhappy with the service,FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+"hello, i want to update the quantity in my order",ORDER,medium,ORDER,medium,,,,
+"hi, how do i subscribe to your newsletter?",NEWSLETTER,low,NEWSLETTER,low,NEWSLETTER,low,Matched pattern indicating newsletter with low urgency.,0.88
+how do i close my account? i no longer watn to use the service.,ACCOUNT,high,ACCOUNT,high,,,,
+The signup form keeps rejecting my email. Thanks in advance.,ACCOUNT,low,ACCOUNT,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Can reroute my package to a new address?,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+I need to talk to someone about my order.,CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+"hey there, adding a new address before my next order",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,,,,
+can you reroute my package to a new address?,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+Why can't I create my account? It says invalid input.,ACCOUNT,low,ACCOUNT,low,ACCOUNT,low,Matched pattern indicating account with low urgency.,0.88
+"Good morning, I want to speak with a hmuan agent, not a bot",CONTACT,low,CONTACT,low,,,,
+"hello, my payment was declined but my card is fine",PAYMENT,high,PAYMENT,high,PAYMENT,high,Matched pattern indicating payment with high urgency.,0.88
+Where can I view my past invoices? This is urgent.,INVOICE,medium,INVOICE,medium,,,,
+"good morning, how do i contact your support team?",CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+Where do I post a product review? Please asssit.,FEEDBACK,low,FEEDBACK,low,,,,
+"Good morning, I need to change the shipping address on my order",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+"Excuse me, how do I request a refund?",REFUND,high,REFUND,high,,,,
+i'd like to edit my personal details. thanks!,ACCOUNT,low,ACCOUNT,low,,,,
+Please change the size on recent oredr before it ships,ORDER,medium,ORDER,medium,,,,
+I want to save a second address for deliveries,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,,,,
+"Hey there, I want to get a refund for my purchase",REFUND,high,REFUND,high,,,,
+"Hey there, please send me the invoice for my recent",INVOICE,medium,INVOICE,medium,,,,
+"Hello, I'm trying to find a copy of my invoice",INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+What's the typical delivery time to my country?,DELIVERY,medium,DELIVERY,medium,DELIVERY,medium,Matched pattern indicating delivery with medium urgency.,0.88
+"this is unacceptable, i want to file a formal complaint! thanks!",FEEDBACK,high,FEEDBACK,high,FEEDBACK,high,Matched pattern indicating feedback with high urgency.,0.88
+please change the size on my recent order before it ships,ORDER,medium,ORDER,medium,ORDER,medium,Matched pattern indicating order with medium urgency.,0.88
+Where can I view my past invoices? Please assist.,INVOICE,medium,INVOICE,medium,,,,
+The signup form keeps rejecting my emali. Looking forward to heairng back.,ACCOUNT,low,ACCOUNT,low,,,,
+"excuse me, i'd like to download an invoice",INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+How do I close my account? I no longer want to use the service.,ACCOUNT,high,ACCOUNT,high,,,,
+"Excuse me, I need to use a different user profile",ACCOUNT,low,ACCOUNT,low,,,,
+I'd like to edit my personal details. This is urgent.,ACCOUNT,low,ACCOUNT,low,,,,
+Could help - what are my delivery options for this order?,DELIVERY,medium,DELIVERY,medium,,,,
+Can you tell me the status of order #9001?,ORDER,medium,ORDER,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hey theer, how can I leave a review for the product I bought?",FEEDBACK,low,FEEDBACK,low,FEEDBACK,low,Matched pattern indicating feedback with low urgency.,0.88
+"locked out of my account, password recovery isn't working!",ACCOUNT,high,ACCOUNT,high,,,,
+I want to switch to a different account,ACCOUNT,low,ACCOUNT,low,,,,
+where can i view my pats invoices? i'd aprpeciate a quick reply.,INVOICE,medium,INVOICE,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+Could you help - is there a support email I can ues?,CONTACT,low,CONTACT,low,,,,
+"hi, i forgot my password and can't log in",ACCOUNT,high,ACCOUNT,high,,,,
+How do I close my account? I no longer want to use the service.,ACCOUNT,high,ACCOUNT,high,,,,
+i need to talk to someone about my order. this is urgent.,CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+"Excuse me, I want to lodge a complaint about the recent experinece",FEEDBACK,high,FEEDBACK,high,,,,
+"Hello, I need a human agent right now",CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+"Hello, how do I add a new shipping address to my account?",SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,Matched pattern indicating shipping_address with medium urgency.,0.88
+Can you show me invoice number 8842?,INVOICE,medium,INVOICE,medium,INVOICE,medium,Matched pattern indicating invoice with medium urgency.,0.88
+Could you help - I'd like to place a new order,ORDER,medium,ORDER,medium,,,,
+I need to talk to someone about my order.,CONTACT,low,CONTACT,low,CONTACT,low,Matched pattern indicating contact with low urgency.,0.88
+"Excuse me, can you help complete my purchase?",ORDER,medium,ORDER,medium,,,,
+Please cancel order #1234 before it ships. Looking forward to hearing back.,CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+"hi team, how do i subscribe to your newslettre?",NEWSLETTER,low,NEWSLETTER,low,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"i changed my mind, can i cnacel my recent purchase?",CANCEL,high,CANCEL,high,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+I a question: my payment was declined but my cadr is fine,PAYMENT,high,PAYMENT,high,PAYMENT,high,Matched pattern indicating payment with high urgency.,0.88
+Can I pay with PayPal? Is bank trnasfer an option?,PAYMENT,medium,PAYMENT,medium,,,,
+"Could you help - cancel my order asap, I odrered the wrong item",CANCEL,high,CANCEL,high,CANCEL,high,Matched pattern indicating cancel with high urgency.,0.88
+I want to save a second address for dleiveries,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,FEEDBACK,low,No strong pattern matched; defaulting to general feedback.,0.4
+"Hi, I need to update the email on my profile",ACCOUNT,low,ACCOUNT,low,,,,
+Can I set up multiple addresses on my profile? Cheers.,SHIPPING_ADDRESS,medium,SHIPPING_ADDRESS,medium,,,,

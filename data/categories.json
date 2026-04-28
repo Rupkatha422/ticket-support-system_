@@ -1,0 +1,20 @@
+{
+  "categories": [
+    "ACCOUNT",
+    "CANCEL",
+    "CONTACT",
+    "DELIVERY",
+    "FEEDBACK",
+    "INVOICE",
+    "NEWSLETTER",
+    "ORDER",
+    "PAYMENT",
+    "REFUND",
+    "SHIPPING_ADDRESS"
+  ],
+  "urgencies": [
+    "low",
+    "medium",
+    "high"
+  ]
+}
